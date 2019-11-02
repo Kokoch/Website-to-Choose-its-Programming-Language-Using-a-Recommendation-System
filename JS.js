@@ -13,34 +13,35 @@ const languages = [
 {name:"Elixir", ease:"1", description:"description of Elixir" }
 ];
 
-console.log(languages);
+
 function renderCard(language) {
-const card = `
- <div class="card ">
-      <div class="card-body">
-        <h5 class="card-title">${language.name}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">${language.ease}</h6>
-        <p class="card-text">${language.description}</p>
-        <a href="#" class="card-link">Card link</a>
-      </div>
-    </div>
-`;
-const div = document.getElementById("search-result")
-div.innerHTML += card;
+    const card = `
+     <div class="card ">
+          <div class="card-body">
+            <h5 class="card-title">${language.name}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">${language.ease}</h6>
+            <p class="card-text">${language.description}</p>
+            <a href="#" class="card-link">Card link</a>
+          </div>
+        </div>
+    `;
+    const div = document.getElementById("search-result")
+    div.innerHTML += card;
 }
 
 function renderAllCard() {
-languages.forEach(renderCard)
+    languages.forEach(renderCard)
 }
 
 function onInputChange(event) {
-const input = event.target.value;
-const result = languages.filter(language => containsInput(language,input))
-const div = document.getElementById("search-result")
-div.innerHTML = "";
-result.forEach(renderCard)
+    const input = event.target.value;
+    const result = languages.filter(language => containsInput(language,input))
+    const div = document.getElementById("search-result")
+    div.innerHTML = "";
+    result.forEach(renderCard)
 }
 
 function containsInput(language,input) {
-return language.description.toLowerCase().indexOf(input.toLowerCase()) >= 0
+    const languageText = language.description.toLowerCase() + language.name.toLowerCase();
+    return languageText.indexOf(input.toLowerCase()) >= 0;
 }
