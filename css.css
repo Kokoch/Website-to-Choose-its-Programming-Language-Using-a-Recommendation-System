@@ -28,3 +28,15 @@ color : green;
 .notfiltered{
     background-color: none;
 }
+
+
+#search-result {
+    margin-top: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+    max-width: none;
+}
+
+.card {
+    margin-bottom: 15px;
+}

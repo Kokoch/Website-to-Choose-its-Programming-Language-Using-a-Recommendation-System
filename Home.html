@@ -36,90 +36,22 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input id="SearchBar" class="form-control mr-sm-2" type="text" placeholder="Search.." onkeyup="SearchFun()">
+          <input id="SearchBar" class="form-control mr-sm-2" type="text" placeholder="Search.." onKeyUp="onInputChange(event)">
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
   </div>
+
   
 
-  <div>
-    <ul class="nav nav-tabs nav-justified">
-        <li class="nav-item ">
-          <a class="nav-link text-danger" href="C:/Users/Elliot/Desktop/projet/Ruby.html"><img src="Ruby.jpg" class="rounded-circle" width="50" height="50">   Ruby</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-success" href="C:/Users/Elliot/Desktop/projet/C1.html"><img src="C1.jpg" class="rounded-circle" width="55" height="50">   C#</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary" href="C:/Users/Elliot/Desktop/projet/Rust.html"><img src="Rust.jpg" class="rounded-circle" width="70" height="50"> Rust</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-warning" href="C:/Users/Elliot/Desktop/projet/JS.html"><img src="JS.jpg" class="rounded-circle" width="50" height="50">   JavaScript</a>
-        </li>
-      </ul>
+  <div class="container" id="search-result">
 
-    <ul class="nav nav-tabs nav-justified">
-      <li class="nav-item">
-        <a class="nav-link purple" href="C:/Users/Elliot/Desktop/projet/Ada.html"><img src="Ada.jpg" class="rounded-circle" width="50" height="50">  Ada</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-warning" href="C:/Users/Elliot/Desktop/projet/Python.html"><img src="Python.jpg" class="rounded-circle" width="50" height="50">   Python</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-primary" href="C:/Users/Elliot/Desktop/projet/C.html"><img src="C.jpg" class="rounded-circle" width="50" height="50">   C</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-danger" href="C:/Users/Elliot/Desktop/projet/Java.html"><img src="Java.jpg" class="rounded-circle" width="55 " height="50">   Java</a>
-      </li>
-    </ul>
-
-    <ul class="nav nav-tabs nav-justified">
-      <li class="nav-item">
-        <a class="nav-link text-primary" href="C:/Users/Elliot/Desktop/projet/Lua.html"><img src="Lua.jpg" class="rounded-circle" width="75" height="50">  Lua</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-warning" href="C:/Users/Elliot/Desktop/projet/Swift.html"><img src="Swift.jpg" class="rounded-circle" width="50" height="50">   Swift</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link go" href="C:/Users/Elliot/Desktop/projet/Go.html"><img src="Go.jpg" class="rounded-circle" width="50" height="50">   Go</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link purple" href="C:/Users/Elliot/Desktop/projet/Elixir.html"><img src="Elixir.jpg" class="rounded-circle" width="50" height="50">   Elixir</a>
-      </li>
 
   </div>
-
-  <br>  
-  <br>
-  <br>
-    
-  <div class="container" id="AccesSearch">
-    <div class="row">
-      <div class="col-sm-4">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Column 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Column 3</h3>        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Column 4</h3>        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        
-      </div>
-    </div>
-  </div>
+<script>
+  renderAllCard()
+</script>
   
 </body>
 
