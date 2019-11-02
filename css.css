@@ -1,0 +1,30 @@
+.titre{
+font-family: OCR A Std, monospace;
+text-align: center;
+color : green;
+}
+
+.purple{
+    color : rgb(149, 8, 177);
+}
+
+.go{
+    color :  rgb(19, 136, 172);
+     
+}
+
+.vert{ 
+color : green;
+}
+
+.center {
+    text-align: center;
+    }
+
+.filtered{
+    background-color: yellow;
+}
+
+.notfiltered{
+    background-color: none;
+}
