@@ -1,25 +1,25 @@
 const languages = [
-{name:"Ruby", ease:"1", description:"description of Ruby " },
-{name:"C#", ease:"2", description:"description of C#" },
-{name:"Rust", ease:"3", description:"description of Rust" },
-{name:"JavaScript", ease:"4", description:"description of JavaScript" },
-{name:"Ada", ease:"5", description:"description of Ada" },
-{name:"Python", ease:"6", description:"description of Python" },
-{name:"C", ease:"2", description:"description of C " },
-{name:"Java", ease:"7", description:"description of Java" },
-{name:"Lua", ease:"8", description:"description of Lua" },
-{name:"Swift", ease:"9", description:"description of Swift" },
-{name:"Go", ease:"10", description:"description of Go" },
-{name:"Elixir", ease:"1", description:"description of Elixir" }
+{name:"Ruby", ease:"1", description:"description of Ruby ", bg:"red" },
+{name:"C#", ease:"2", description:"description of C#", bg:"green" },
+{name:"Rust", ease:"3", description:"description of Rust", bg:"gray" },
+{name:"JavaScript", ease:"4", description:"description of JavaScript", bg:"yellow" },
+{name:"Ada", ease:"5", description:"description of Ada", bg:"purple" },
+{name:"Python", ease:"6", description:"description of Python", bg:"yellow" },
+{name:"C", ease:"2", description:"description of C ", bg:"blue" },
+{name:"Java", ease:"7", description:"description of Java", bg:"red" },
+{name:"Lua", ease:"8", description:"description of Lua", bg:"blue" },
+{name:"Swift", ease:"9", description:"description of Swift", bg:"orange" },
+{name:"Go", ease:"10", description:"description of Go", bg:"lblue" },
+{name:"Elixir", ease:"1", description:"description of Elixir", bg:"purple" }
 ];
 
 
 function renderCard(language) {
     const card = `
-     <div class="card ">
+     <div class="card ${language.bg}">
           <div class="card-body">
             <h5 class="card-title">${language.name}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">${language.ease}</h6>
+            <h6 class="card-subtitle mb-2 text-muted">ease of learning: ${language.ease}/10</h6>
             <p class="card-text">${language.description}</p>
             <a href="#" class="card-link">Card link</a>
           </div>

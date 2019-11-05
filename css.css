@@ -4,31 +4,37 @@ text-align: center;
 color : green;
 }
 
+.red {
+    background-color: rgb(189, 68, 68) ;
+}
+
+.green {
+    background-color:rgb(61, 131, 29);
+}
+
+.blue {
+    background-color:rgb(32, 81, 155);
+}
+
+.yellow{
+    background-color: rgb(190, 192, 62);
+}
+
+.orange{
+    background-color: orange;
+}
+
+.gray{
+    background-color: rgb(137, 149, 161);
+}
+
 .purple{
-    color : rgb(149, 8, 177);
+    background-color: rgb(108, 69, 146);
 }
 
-.go{
-    color :  rgb(19, 136, 172);
-     
+.lblue{
+background-color: rgb(71, 173, 177) ;
 }
-
-.vert{ 
-color : green;
-}
-
-.center {
-    text-align: center;
-    }
-
-.filtered{
-    background-color: yellow;
-}
-
-.notfiltered{
-    background-color: none;
-}
-
 
 #search-result {
     margin-top: 15px;
