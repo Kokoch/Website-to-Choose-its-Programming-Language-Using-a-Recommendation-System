@@ -49,8 +49,15 @@ function renderCard(language) {
     div.innerHTML += card;
 }
 
+
+function clearCards(){
+    const div = document.getElementById("search-result");
+    div.innerHTML = "";
+}
+
 function renderAllCard() {
-    languages.forEach(renderCard)
+    clearCards();
+    languages.forEach(renderCard);
 }
 
 function onInputChange(event) {
@@ -60,10 +67,8 @@ function onInputChange(event) {
     } else {
         const result = languages.filter(language => getLanguageScore(language, input) > 0);
         result.sort((language1, language2) => getLanguageScore(language2, input) - getLanguageScore(language1, input));
-        const div = document.getElementById("search-result");
-        console.log(result);
-        div.innerHTML = "";
-        result.forEach(renderCard)
+        clearCards();
+        result.forEach(renderCard);
     }
 }
 
