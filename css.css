@@ -38,8 +38,8 @@ background-color: rgb(71, 173, 177) ;
 
 #search-result {
     margin-top: 15px;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 43px;
+    padding-right: 40px;
     max-width: none;
 }
 
@@ -47,11 +47,13 @@ background-color: rgb(71, 173, 177) ;
     margin-bottom: 15px;
 }
 
-input[type=text] {
-width: 190px;
--webkit-transition: width 0.3s ease-in-out;
-transition: width 0.3s ease-in-out;
-border: 1px solid;
+.card-body{
+background-color: #ffffff96;
+}
+
+.navbar{
+padding-left: 35px;
+padding-right: 35px;
 }
 
 
