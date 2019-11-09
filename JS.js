@@ -34,14 +34,23 @@ function renderAllCard() {
 }
 
 function onInputChange(event) {
-    const input = event.target.value;
-    const result = languages.filter(language => containsInput(language,input))
+    const input = event.target.value.trim();
+     if (input.length==0){
+           renderAllCard()
+        }
+    else {
+    const result = languages.filter(language => getLanguageScore(language,input)>0)
+    result.sort((language1, language2) => getLanguageScore(language2,input)-getLanguageScore(language1,input))
     const div = document.getElementById("search-result")
+    console.log(result)
     div.innerHTML = "";
     result.forEach(renderCard)
+    }
 }
 
-function containsInput(language,input) {
+function getLanguageScore(language,input) {
+    const words = input.split(' ').filter(word => word.length > 0)
     const languageText = language.description.toLowerCase() + language.name.toLowerCase();
-    return languageText.indexOf(input.toLowerCase()) >= 0;
+    const wordsIncluded = words.map(word => languageText.includes((word.toLowerCase())));
+    return wordsIncluded.filter( included => included == true).length
 }
