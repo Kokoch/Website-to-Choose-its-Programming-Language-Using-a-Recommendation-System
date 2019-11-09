@@ -82,22 +82,6 @@ function getLanguageScore(language, input) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function changeEaseLevel(event) {
+    console.log(event.target.value);
+}

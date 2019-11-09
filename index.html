@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,15 +43,26 @@
   </div>
 
 
-<div id=""></div>
+  <form  id="form">
+      <div class="form-group">
+          <label for="exampleFormControlSelect1">Ease of learning</label>
+          <select class="form-control" id="exampleFormControlSelect1" onchange="changeEaseLevel(event)">
+              <option disabled selected value>Please select a level</option>
+              <option>Easy</option>
+              <option>Medium</option>
+              <option>Hard</option>
+          </select>
+      </div>
+  </form>
+  Ease of learn => dropdown note
 
   <div class="container" id="search-result"></div>
 
 <script>
   renderAllCard()
 </script>
-  
+
 </body>
 
-  
+
 </html>
