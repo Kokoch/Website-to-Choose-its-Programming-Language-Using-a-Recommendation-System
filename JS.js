@@ -20,7 +20,7 @@ const languages = [
         description: "Java was created by James Gosling and released in 1996 ; general-purpose, object-oriented language ; can run on all platforms that support Java without the need for recompilation (= very portable), extremely popular (particularly for client-server web applications)",
         background: "red"
     },
-    {name: "JavaScript", ease: 4, description: "description of JavaScript", background: "yellow"},
+    {name: "JavaScript", ease: 4, description: "description of JavaScript chien chat ballon", background: "yellow"},
     {name: "Lua", ease: 8, description: "description of Lua", background: "blue"},
     {
         name: "Python",
@@ -28,8 +28,8 @@ const languages = [
         description: "Python was created by Guido van Rossum and first released in 1991 ; interpreted (executed direcly, doesn’t need compiling), high-level (closer to natural language), general-purpose language ; very popular, has the reputation of being easy to read and to learn",
         background: "yellow"
     },
-    {name: "Ruby", ease: 1, description: "description of Ruby ", background: "red"},
-    {name: "Rust", ease: 3, description: "description of Rust", background: "gray"},
+    {name: "Ruby", ease: 1, description: "description of Ruby chien ballon ", background: "red"},
+    {name: "Rust", ease: 3, description: "description of Rust chat", background: "gray"},
     {name: "Swift", ease: 9, description: "description of Swift", background: "orange"},
 ];
 
@@ -41,14 +41,13 @@ function renderCard(language) {
             <h5 class="card-title">${language.name}</h5>
             <h6 class="card-subtitle mb-2 text-muted">ease of learning: ${language.ease}/10</h6>
             <p class="card-text">${language.description}</p>
-            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link ">Card link</a>
           </div>
         </div>
     `;
     const div = document.getElementById("search-result");
     div.innerHTML += card;
 }
-
 
 function clearCards(){
     const div = document.getElementById("search-result");
@@ -57,7 +56,6 @@ function clearCards(){
 
 function renderAllCard() {
     clearCards();
-    languages.sort((language1, language2) => language1.name - language2.name);
     languages.forEach(renderCard);
 }
 
@@ -80,8 +78,7 @@ function getLanguageScore(language, input) {
     return wordsIncluded.filter(included => included === true).length
 }
 
-
-
 function changeEaseLevel(event) {
     console.log(event.target.value);
+    document.getElementById(colorSelect).backgroundColor= "red";
 }

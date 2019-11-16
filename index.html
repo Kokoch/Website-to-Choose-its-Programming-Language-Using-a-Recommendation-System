@@ -42,22 +42,58 @@
     </nav>
   </div>
 
-  <div class="container" id="search-result"></div>
-  
-  <form  id="form">
-      <div class="form-group">
-          <label for="exampleFormControlSelect1">Ease of learning</label>
-          <select class="form-control" id="exampleFormControlSelect1" onchange="changeEaseLevel(event)">
+<div class="padLeft">
+  <select class="form-control" id="" onchange="this.className=this.options[this.selectedIndex].className">
+      <option class="gray disabled selected value">Please select a level</option>
+      <option id="lblueform" >Unimportant 1-10</option>
+      <option class="green">Easy 8-10</option>
+      <option class="orange">Medium 4-7</option>
+      <option class="red">Hard 1-3</option>
+  </select>
+</div>
+
+  <form  class="noSelection" id="form">
+      <div class="form-check-inline">
+          <label >Ease of learning:</label>
+          <select name="difficulties" onchange="changeEaseLevel(event)">
               <option disabled selected value>Please select a level</option>
-              <option>Easy</option>
-              <option>Medium</option>
-              <option>Hard</option>
+              <option class="lblue">Unimportant 1-10</option>
+              <option class="green">Easy 8-10</option>
+              <option class="orange">Medium 4-7</option>
+              <option class="red">Hard 1-3</option>
           </select>
       </div>
   </form>
-  Ease of learn => dropdown note
+
+  <form action="/action_page.php" id="form">
+      <div class="form-check-inline" onchange="changeEaseLevel(event)">
+          <label class="form-check-label">Ease of learning:</label>
+          <label class="form-check-label">
+              <p class="lblueform"><input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something" checked>Unimportant 1-10</p>
+          </label>
+      </div>
+      <div class="form-check-inline">
+          <label class="form-check-label">
+              <input type="checkbox" class="form-check-input green" id="check2" name="vehicle2" value="something">Easy 8-10
+          </label>
+      </div>
+      <div class="form-check-inline">
+          <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">Medium 4-7
+          </label>
+      </div>
+      <div class="form-check-inline">
+          <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">Hard 1-3
+          </label>
+  </form>
+  </div>
 
 
+
+
+
+  <div class="container" id="search-result"></div>
 
 <script>
   renderAllCard()
