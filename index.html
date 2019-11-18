@@ -7,96 +7,101 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>C.R.P.L.</title>
     <script src="JS.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="css.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/60f9cbebb5.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  </head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
 <body>
-  <div class="jumbotron text-center card">
+<div class="jumbotron text-center card">
     <h1 class="titre">Choose The Right Programming Language</h1>
-  </div>
-  <div>
+</div>
+<div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div class="collapse navbar-collapse" id="navbarColor03">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link center" href="" onclick="changePage('home')">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link center" href="" onclick="changePage('form')">How To Choose ?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link center" href="" onclick="changePage('about')">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link center" href="" onclick="changePage('sources')">Sources</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input id="SearchBar" class="form-control mr-sm-2" type="text" placeholder="Search..." onKeyUp="onInputChange(event)">
-        </form>
-      </div>
+        <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link center" href="#" onclick="displayCards()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link center" href="#" onclick="displayForm()">How To Choose ?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link center" href="#" onclick="changePage('about')">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link center" href="#" onclick="changePage('sources')">Sources</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input id="SearchBar" class="form-control mr-sm-2" type="text" placeholder="Search..."
+                       onKeyUp="onInputChange(event)">
+            </form>
+        </div>
     </nav>
-  </div>
-
-<div class="padLeft">
-  <select class="form-control" id="" onchange="this.className=this.options[this.selectedIndex].className">
-      <option class="gray disabled selected value">Please select a level</option>
-      <option id="lblueform" >Unimportant 1-10</option>
-      <option class="green">Easy 8-10</option>
-      <option class="orange">Medium 4-7</option>
-      <option class="red">Hard 1-3</option>
-  </select>
 </div>
 
-  <form  class="noSelection" id="form">
-      <div class="form-check-inline">
-          <label >Ease of learning:</label>
-          <select name="difficulties" onchange="changeEaseLevel(event)">
-              <option disabled selected value>Please select a level</option>
-              <option class="lblue">Unimportant 1-10</option>
-              <option class="green">Easy 8-10</option>
-              <option class="orange">Medium 4-7</option>
-              <option class="red">Hard 1-3</option>
-          </select>
-      </div>
-  </form>
+<div id="cardsPage">
+    <div class="container" id="search-result"></div>
+</div>
 
-  <form action="/action_page.php" id="form">
-      <div class="form-check-inline" onchange="changeEaseLevel(event)">
-          <label class="form-check-label">Ease of learning:</label>
-          <label class="form-check-label">
-              <p class="lblueform"><input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something" checked>Unimportant 1-10</p>
-          </label>
-      </div>
-      <div class="form-check-inline">
-          <label class="form-check-label">
-              <input type="checkbox" class="form-check-input green" id="check2" name="vehicle2" value="something">Easy 8-10
-          </label>
-      </div>
-      <div class="form-check-inline">
-          <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">Medium 4-7
-          </label>
-      </div>
-      <div class="form-check-inline">
-          <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">Hard 1-3
-          </label>
-  </form>
-  </div>
+<div id="formPage">
+    <div class="padLeft">
+        <select class="form-control" id="" onchange="this.className=this.options[this.selectedIndex].className">
+            <option class="gray disabled selected value">Please select a level</option>
+            <option id="lblueform">Unimportant 1-10</option>
+            <option class="green">Easy 8-10</option>
+            <option class="orange">Medium 4-7</option>
+            <option class="red">Hard 1-3</option>
+        </select>
+    </div>
 
+    <form class="noSelection" id="form">
+        <div class="form-check-inline">
+            <label>Ease of learning:</label>
+            <select name="difficulties" onchange="changeEaseLevel(event)">
+                <option disabled selected value>Please select a level</option>
+                <option class="lblue">Unimportant 1-10</option>
+                <option class="green">Easy 8-10</option>
+                <option class="orange">Medium 4-7</option>
+                <option class="red">Hard 1-3</option>
+            </select>
+        </div>
+    </form>
 
+    <form action="/action_page.php" id="form">
+        <div class="form-check-inline" onchange="changeEaseLevel(event)">
+            <label class="form-check-label">Ease of learning:</label>
+            <label class="form-check-label">
+                <p class="lblueform"><input type="checkbox" class="form-check-input" id="check1" name="vehicle1"
+                                            value="something" checked>Unimportant 1-10</p>
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input green" id="check2" name="vehicle2" value="something">Easy
+                8-10
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">Medium 4-7
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">Hard 1-3
+            </label>
+        </div>
+    </form>
+</div>
 
-
-
-  <div class="container" id="search-result"></div>
 
 <script>
-  renderAllCard()
+    renderAllCard()
 </script>
 
 </body>

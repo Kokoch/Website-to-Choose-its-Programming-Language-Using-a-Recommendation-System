@@ -61,6 +61,7 @@ function renderAllCard() {
 
 function onInputChange(event) {
     const input = event.target.value.trim();
+    displayCards()
     if (input.length === 0) {
         renderAllCard()
     } else {
@@ -82,3 +83,21 @@ function changeEaseLevel(event) {
     console.log(event.target.value);
     document.getElementById(colorSelect).backgroundColor= "red";
 }
+
+function displayCards() {
+    document.getElementById('formPage').style.visibility = 'hidden';
+    document.getElementById('cardsPage').style.visibility = 'visible';
+}
+
+function displayForm() {
+    document.getElementById('cardsPage').style.visibility = 'hidden';
+    document.getElementById('formPage').style.visibility = 'visible';
+}
+
+
+
+
+
+
+
+
