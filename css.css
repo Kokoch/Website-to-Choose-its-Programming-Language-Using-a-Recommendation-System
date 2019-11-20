@@ -51,6 +51,19 @@
     margin-bottom: 15px;
 }
 
+.card-title{
+    font-family: Stencil Std, fantasy;
+}
+
+.card-subtitle{
+    font-family: Andale Mono, monospace;
+    font-size: medium;
+}
+
+.card-text{
+    font-family: Snell Roundhand, cursive ;
+}
+
 .card-body {
     background-color: #ffffff96;
 }
@@ -60,7 +73,13 @@
     padding-right: 35px;
 }
 
+.textNavBar{
+    font-family: Apple Chancery, cursive;
+    font-size: large;
+}
+
 .padLeft {
+    margin-top: 15px;
     padding-left: 43px;
     padding-right: 43px;
     width: 25%;
@@ -71,3 +90,9 @@
     padding-left: 43px;
     padding-right: 43px;
 }
+
+#SearchBar {
+    border-color: forestgreen;
+    border-width: revert;
+}
+
