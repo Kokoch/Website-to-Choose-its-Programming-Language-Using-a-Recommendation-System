@@ -40,12 +40,18 @@ const languages = [
 
     {name: "JavaScript", ease: 5, description: "description of JavaScript chien chat ballon", background: "yellow", link:"/languages-recommendation-system/languages/JS.html"},
 
-    {name: "Lua", ease: 8, description: "description of Lua", background: "blue", link:"/languages-recommendation-system/languages/Lua.html"},
+    {name: "Lua", ease: 8, description: "Lua is a powerful, efficient, lightweight, embeddable scripting language. It supports procedural programming, object-oriented programming, functional programming, data-driven programming, and data description.\n" +
+            " Lua is currently the leading scripting language in games. (ex: World of Warcraft and Angry Birds). Lua has a deserved reputation for performance. To claim to be \"as fast as Lua\" is an aspiration of other scripting languages. Lua is builds out-of-the-box in all platforms that have a standard C compiler.\n" +
+            " Lua runs on all flavors of Unix and Windows, on mobile devices, so Lua is very portable. It is easy to extend Lua with libraries written in other languages. Lua combines also a very simple procedural syntax.",
+        background: "blue",
+        link:"/languages-recommendation-system/languages/Lua.html"},
 
     {
         name: "Python",
         ease: 7,
-        description: "Python was created by Guido van Rossum and first released in 1991 ; interpreted (executed direcly, doesn’t need compiling), high-level (closer to natural language), general-purpose language ; very popular, has the reputation of being easy to read and to learn",
+        description: "Python was created by Guido van Rossum and it first released in 1991. Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.\n" +
+            "Python's simple, easy to learn syntax emphasizes readability.\n" +
+            "Python supports modules and packages, which encourages program modularity and code reuse.  There is no compilation step, the edit-test-debug cycle is incredibly fast. Python is the programming language use to develop artificial intelligence.",
         background: "yellow", link:"/languages-recommendation-system/languages/Python.html"
     },
 
