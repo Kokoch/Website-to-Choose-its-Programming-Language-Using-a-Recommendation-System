@@ -1,7 +1,7 @@
 const languages = [
     {
         name: "Ada",
-        ease: 5.5,
+        ease: 5,
         description: "Ada was originally designed by a team led by French computer scientist Jean Ichbiah under contract to the United States Department of Defense.\n" +
             "Ada use an extremely strong, static and safe type system, which allows the programmer to construct powerful abstractions that reflect the real world, and allows the compiler to detect many logic faults before they become errors.\n" +
             "The language separates interfaces from implementation, and provides fine-grained control over visibility. Ada source text is very portable across compilers and across target hardware platforms. Most often, the program can be recompiled without any changes. Ada is an object-oriented and high-level programming language.",
@@ -18,7 +18,7 @@ const languages = [
         background: "blue", link:"/languages-recommendation-system/languages/C.html"
     },
 
-    {name: "C#", ease: 5.5, description: "description of C#", background: "green", link:"/languages-recommendation-system/languages/C1.html"},
+    {name: "C#", ease: 6, description: "description of C#", background: "green", link:"/languages-recommendation-system/languages/C1.html"},
 
     {name: "Elixir", ease: 1, description: "Plataformatec, a software consultancy, created Elixir in 2012 as a Research and Development project lead by José Valim. Elixir’s goal is to be a productive language for writing maintainable and reliable software.\n" +
             "Elixir runs on top of the Erlang Virtual Machine, which provides a scalable and fault-tolerant foundation. To cope with failures, Elixir provides supervisors which describe how to restart parts of your system when things go awry.\n" +
@@ -38,7 +38,7 @@ const languages = [
         background: "red", link:"/languages-recommendation-system/languages/Java.html"
     },
 
-    {name: "JavaScript", ease: 5, description: "description of JavaScript chien chat ballon", background: "yellow", link:"/languages-recommendation-system/languages/JS.html"},
+    {name: "JavaScript", ease: 6, description: "description of JavaScript chien chat ballon", background: "yellow", link:"/languages-recommendation-system/languages/JS.html"},
 
     {name: "Lua", ease: 8, description: "Lua is a powerful, efficient, lightweight, embeddable scripting language. It supports procedural programming, object-oriented programming, functional programming, data-driven programming, and data description.\n" +
             " Lua is currently the leading scripting language in games. (ex: World of Warcraft and Angry Birds). Lua has a deserved reputation for performance. To claim to be \"as fast as Lua\" is an aspiration of other scripting languages. Lua is builds out-of-the-box in all platforms that have a standard C compiler.\n" +
