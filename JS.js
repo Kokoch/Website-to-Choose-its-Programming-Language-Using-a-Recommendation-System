@@ -12,7 +12,7 @@ const languages = [
         name: "C",
         ease: 5,
         description: "The C language is a structure oriented programming language developed by Dennis Ritchie. The C programming language is used for developing system applications that forms a major portion of operating systems such as Windows, UNIX and Linux.\n" +
-            "Therefore, program that is written in C and that respects certain limitations can be compiled for many different platforms. C is a very portable programming language.\\n" +
+            "Therefore, program that is written in C and that respects certain limitations can be compiled for many different platforms. C is a very portable programming language.\n" +
             "It is a procedural language, which means that people can write their programs as a series of step-by-step instructions.\n" +
             "The language itself has very few keywords, and most things are done using libraries, which are collections of code for them to be reused. To conclude C is a general-purpose and object-oriented programming language.",
         background: "blue", link:"/languages-recommendation-system/languages/C.html"

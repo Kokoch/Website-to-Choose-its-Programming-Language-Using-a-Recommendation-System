@@ -1,10 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a50043d-6807-4587-933d-1557765e7af2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="19fea437081b572ca8fb19d5fa39dd7a46965e5b" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1T3x6Vi0U2kqqKDxYbP52Nv4DY9" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project.html" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elliot\Desktop\projet\languages-recommendation-system\languages\images" />
+      <recent name="C:\Users\Elliot\Desktop\projet\languages-recommendation-system\languages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a50043d-6807-4587-933d-1557765e7af2" name="Default Changelist" comment="" />
+      <created>1572702404877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572702404877</updated>
+      <workItem from="1573314260731" duration="6026000" />
+      <workItem from="1573330141017" duration="1402000" />
+      <workItem from="1573334840730" duration="67000" />
+      <workItem from="1573548615464" duration="34000" />
+      <workItem from="1573555159555" duration="17000" />
+      <workItem from="1573555654084" duration="63000" />
+      <workItem from="1573804071788" duration="4365000" />
+      <workItem from="1573925536172" duration="5852000" />
+      <workItem from="1574074235423" duration="9079000" />
+      <workItem from="1574152466124" duration="5672000" />
+      <workItem from="1574172333947" duration="253000" />
+      <workItem from="1574192223498" duration="3917000" />
+      <workItem from="1574273721622" duration="5491000" />
+      <workItem from="1574349533984" duration="1158000" />
+      <workItem from="1574410020073" duration="2359000" />
+      <workItem from="1574415829655" duration="40000" />
+      <workItem from="1574672746268" duration="3117000" />
+      <workItem from="1574757349460" duration="8192000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1572702451924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572702451924</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implement search feature (and change the world!)">
+      <created>1572713713531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572713713531</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add gitignore">
+      <created>1572713816922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572713816922</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add title for research">
+      <created>1572714303310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572714303310</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bg on each cards">
+      <created>1572975732735</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572975732735</updated>
+    </task>
+    <task id="LOCAL-00006" summary="search bar">
+      <created>1573207442177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573207442177</updated>
+    </task>
+    <task id="LOCAL-00007" summary="bg transparence, alignement navbar">
+      <created>1573305562473</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573305562473</updated>
+    </task>
+    <task id="LOCAL-00008" summary="augmented search bar +++++">
+      <created>1573313535907</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573313535907</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test new version">
+      <created>1573314513680</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573314513680</updated>
+    </task>
+    <task id="LOCAL-00010" summary="correction">
+      <created>1573315431159</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573315431159</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test new version alphabétic">
+      <created>1573320274308</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573320274308</updated>
+    </task>
+    <task id="LOCAL-00012" summary="form 1">
+      <created>1573320772790</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573320772790</updated>
+    </task>
+    <task id="LOCAL-00013" summary="form color">
+      <created>1573941217642</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573941217642</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test new version alphabétic">
+      <created>1574079862427</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574079862427</updated>
+    </task>
+    <task id="LOCAL-00015" summary="display">
+      <created>1574082607605</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574082607605</updated>
+    </task>
+    <task id="LOCAL-00016" summary="div cacher ou afficher en fonction de la page">
+      <created>1574096041360</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1574096041360</updated>
+    </task>
+    <task id="LOCAL-00017" summary="div cacher ou afficher en fonction de la page">
+      <created>1574096135472</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574096135472</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Ajout the 4 description Java elixir swift C et modifier quelques police dans les cartes">
+      <created>1574283469459</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574283469459</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Ajout de description">
+      <created>1574684632119</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574684632119</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="RELOAD_CONTEXT" value="false" />
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Implement search feature (and change the world!)" />
+    <MESSAGE value="Add gitignore" />
+    <MESSAGE value="add title for research" />
+    <MESSAGE value="bg on each cards" />
+    <MESSAGE value="search bar" />
+    <MESSAGE value="bg transparence, alignement navbar" />
+    <MESSAGE value="augmented search bar +++++" />
+    <MESSAGE value="test new version" />
+    <MESSAGE value="correction" />
+    <MESSAGE value="form 1" />
+    <MESSAGE value="form color" />
+    <MESSAGE value="test new version alphabétic" />
+    <MESSAGE value="display" />
+    <MESSAGE value="div cacher ou afficher en fonction de la page" />
+    <MESSAGE value="Ajout the 4 description Java elixir swift C et modifier quelques police dans les cartes" />
+    <MESSAGE value="Ajout de description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de description" />
   </component>
 </project>

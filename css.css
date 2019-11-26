@@ -4,6 +4,10 @@
     color: green;
 }
 
+.bigp{
+    font-size: x-large;
+}
+
 .red {
     background-color: rgb(189, 68, 68);
 }
@@ -11,6 +15,44 @@
 .redText{
     font-family: OCR A Std, monospace;
     color:red;
+}
+
+.lblueText{
+    font-family: OCR A Std, monospace;
+    color: rgb(71, 173, 177);
+}
+
+.greenText{
+    font-family: OCR A Std, monospace;
+    color:rgb(61, 131, 29);
+}
+
+.blueText{
+    font-family: OCR A Std, monospace;
+    color:rgb(32, 81, 155);
+}
+
+.orangeText{
+    font-family: OCR A Std, monospace;
+    color:orange;
+}
+
+.yellowText{
+    font-family: OCR A Std, monospace;
+    color:rgb(190, 192, 62);
+}
+
+.purpleText{
+    font-family: OCR A Std, monospace;
+    color:rgb(108, 69, 146);
+}
+
+.blackText{
+ color: black;
+}
+
+.sizeSourcesLanguage{
+    font-size: large;
 }
 
 .green {
