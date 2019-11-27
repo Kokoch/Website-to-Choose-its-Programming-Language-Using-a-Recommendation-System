@@ -8,6 +8,11 @@
     font-size: x-large;
 }
 
+.policeForm{
+    font-family: OCR A Std, monospace;
+}
+
+
 .red {
     background-color: rgb(189, 68, 68);
 }
@@ -133,6 +138,13 @@
     margin-top: 15px;
     padding-left: 43px;
     padding-right: 43px;
+    width: 25%;
+}
+
+.padLeftAugmented {
+    margin-top: 15px;
+    padding-left: 47px;
+    padding-right: 47px;
     width: 25%;
 }
 
