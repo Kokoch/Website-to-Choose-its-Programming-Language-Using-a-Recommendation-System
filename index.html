@@ -51,67 +51,49 @@
 </div>
 
 <div id="formPage">
-    <p>
-    <h1><u class="padLeft titre">Form to choose a programming language</u></h1></p>
 
-    <div class="padLeftAugmented">
-        <p>Ease of learning:</p>
-        <div class="custom-control custom-radio custom-control-inline" onchange="changeEaseLevel(event)">
-
-            <input type="radio" class="custom-control-input" id="customRadio1" name="Unimportant" value="0">
-            <label class="custom-control-label policeForm" for="customRadio1">Ready to learn</label>
+    <h1><u class="padLeft titre">Form to choose a programming language</u></h1>
+        <div class="row">
+            <div class="col-sm-2 padLeft" style="margin-left:18px">
+                <dt style="font-size: x-large;">Learning Process:</dt>
+            </div>
+            <div class="col-sm-8 padLeft" style="margin-top:23px">
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" class="custom-control-input formLearning" id="defaultInline1"
+                           name="radioLearningProcess" value="0" onclick="changeEaseLevel(event)" checked>
+                    <label class="custom-control-label" for="defaultInline1"><p
+                            class="policeForm">Ready to learn !</p></label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" class="custom-control-input formLearning" id="defaultInline2"
+                           name="radioLearningProcess" value="1" onclick="changeEaseLevel(event)" >
+                    <label class="custom-control-label" for="defaultInline2"><p
+                            class="policeForm">Easier it is, Better it
+                        is !</p></label>
+                </div>
+            </div>
         </div>
 
-        <div class="custom-control custom-radio custom-control-inline" onchange="changeEaseLevel(event)">
-            <input type="radio" class="custom-control-input" id="customRadio2" name="Easy" value="1">
-            <label class="custom-control-label policeForm" for="customRadio2">Easier it is, Better it is</label>
-        </div>
 
+    <br>
+    <div class="padLeft">
         <button type="button" class="btn btn-success">Submit</button>
     </div>
-
-
-
-    <br><br><br><br><br><br><br><br>
-
+    <br>
+    <br>
+    <br>
 
 
     <div class="padLeft">
         <select class="form-control">
-            <option class="disabled selected gray">Please select a level</option>
+            <option class="disabled selected gray" selected>Please select a level</option>
             <option class="lblue blackText">Unimportant 1-10</option>
             <option class="green blackText">Easy 7-10</option>
             <option class="orange blackText">Medium 4-6</option>
             <option class="red blackText">Hard 1-3</option>
         </select>
     </div>
-
-
-    <form action="/action_page.php" id="form">
-        <div class="form-check-inline" onchange="changeEaseLevel(event)">
-            <label class="form-check-label">Ease of learning:</label>
-            <label class="form-check-label">
-                <p class="lblueform"><input type="checkbox" class="form-check-input" id="check1" name="vehicle1"
-                                            value="0" checked>Unimportant 1-10</p>
-            </label>
-        </div>
-        <div class="form-check-inline">
-            <label class="form-check-label">
-                <input type="checkbox" class="form-check-input green" id="check2" name="vehicle2" value="something">Easy
-                8-10
-            </label>
-        </div>
-        <div class="form-check-inline">
-            <label class="form-check">
-                <input type="checkbox" class="form-check-input">Medium 4-7
-            </label>
-        </div>
-        <div class="form-check-inline">
-            <label class="form-check-label">
-                <input type="checkbox" class="form-check-input">Hard 1-3
-            </label>
-        </div>
-    </form>
+</div>
 </div>
 
 <div id="aboutPage">
@@ -185,19 +167,23 @@
         </div>
         <div class="col padLeft">
             <h1><u> Survey </u></h1>
-            <p class="sizeSourcesLanguage"> In order to be as precise as possible for the criteria of ease of learning,
+            <p class="sizeSourcesLanguage"> In order to be as precise as possible for the criteria of ease of
+                learning,
                 I made a survey in which I
-                asked the researchers of the Computer Science department of the University of Luxembourg to grade the
+                asked the researchers of the Computer Science department of the University of Luxembourg to grade
+                the
                 different programming languages.</p>
             <p class="sizeSourcesLanguage">Then by averaging the scores of each language, I get a rather accurate
                 score.</p>
             <p class="sizeSourcesLanguage"><u> Here is an example:</u></p>
-            <img src="/languages-recommendation-system/languages//images/Survey.jpg" alt="Complete_Survey" width="500"
+            <img src="/languages-recommendation-system/languages//images/Survey.jpg" alt="Complete_Survey"
+                 width="500"
                  height="650"/>
         </div>
         <div class="col padLeft">
             <h1><u> Documentation </u></h1>
-            <p class="sizeSourcesLanguage">All documentation/research on the different programming languages was done by
+            <p class="sizeSourcesLanguage">All documentation/research on the different programming languages was
+                done by
                 my project mates. </p>
         </div>
     </div>

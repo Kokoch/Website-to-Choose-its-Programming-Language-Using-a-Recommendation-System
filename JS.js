@@ -62,7 +62,7 @@ const languages = [
             "Ruby has exception handling features to make it easy to handle errors.Ruby is highly portable: it is developed mostly on GNU/Linux, but works on many types of UNIX, macOS, Windows...", background: "red", link:"/languages-recommendation-system/languages/Ruby.html"},
 
     {name: "Rust", ease: 3, description: "Rust has been the \"most loved programming language\" in the Stack Overflow Developer Survey every year since 2016.\n" +
-            "Rust is blazingly fast and memory-efficient: with no runtime or garbage collector, it can power performance-critical services, run on embedded devices, and easily integrate with other languages.\n" +
+            "Rust is incredibly fast and memory-efficient: with no runtime or garbage collector, it can power performance-critical services, run on embedded devices, and easily integrate with other languages.\n" +
             "Rust’s rich type system guarantee memory-safety and enable you to eliminate many classes of bugs at compile-time.\n" +
             "Rust is a multi-paradigm programming language. Rust has great documentation, a friendly compiler with useful error messages, and top-notch tooling, an integrated package manager and build tool, smart multi-editor support with auto-completion and type inspections, an auto-formatter, and more.", background: "gray", link:"/languages-recommendation-system/languages/Rust.html"},
 

@@ -9,7 +9,8 @@
 }
 
 .policeForm{
-    font-family: OCR A Std, monospace;
+    font-family:Times, "Times New Roman", Georgia, serif;
+    font-size: large;
 }
 
 
@@ -158,4 +159,3 @@
     border-color: forestgreen;
     border-width: revert;
 }
-
