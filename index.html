@@ -59,14 +59,14 @@
             </div>
             <div class="col-sm-8 padLeft" style="margin-top:23px">
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input formLearning" id="defaultInline1"
-                           name="radioLearningProcess" value="0" onclick="changeEaseLevel(event)" checked>
+                    <input type="radio" class="custom-control-input formLearning valueTarget1" id="defaultInline1"
+                           name="radioLearningProcess" value="0" checked>
                     <label class="custom-control-label" for="defaultInline1"><p
                             class="policeForm">Ready to learn !</p></label>
                 </div>
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input formLearning" id="defaultInline2"
-                           name="radioLearningProcess" value="1" onclick="changeEaseLevel(event)" >
+                    <input type="radio" class="custom-control-input formLearning valueTarget" id="defaultInline2"
+                           name="radioLearningProcess" value="1" >
                     <label class="custom-control-label" for="defaultInline2"><p
                             class="policeForm">Easier it is, Better it
                         is !</p></label>
@@ -79,13 +79,13 @@
         </div>
         <div class="col-sm-8" style="margin-top:23px">
             <div class="custom-control custom-checkbox custom-control-inline">
-                <input type="checkbox" class="custom-control-input" id="defaultInline3">
+                <input type="checkbox" class="custom-control-input valueTarget" id="defaultInline3" value="2">
                 <label class="custom-control-label" for="defaultInline3"><p
                         class="policeForm">Ready to learn !</p></label>
             </div>
 
             <div class="custom-control custom-checkbox custom-control-inline">
-                <input type="checkbox" class="custom-control-input" id="defaultInline4">
+                <input type="checkbox" class="custom-control-input valueTarget" id="defaultInline4" value="3" >
                 <label class="custom-control-label" for="defaultInline4"><p
                         class="policeForm">Ready to learn !</p></label>
             </div>
@@ -94,7 +94,7 @@
 
     <br>
     <div class="padLeft">
-        <button type="button" class="btn btn-success">Submit</button>
+        <button type="button" class="btn btn-success" onclick="changeEaseLevel(event)">Submit</button>
     </div>
     <br>
     <br>
@@ -133,9 +133,9 @@
                 page of C</a>
             </p>
             <p class="bigp greenText"><u>C#:</u> <a class="greenText sizeSourcesLanguage"
-                                                    href="https://en.wikibooks.org/wiki/Ada_Programming ">Wikibooks</a>
+                                                    href="https://www.infoq.com/minibooks/emag-c-sharp-preview">Infoq's page</a>
                 / <a class="greenText sizeSourcesLanguage"
-                     href="https://en.wikipedia.org/wiki/Ada_(programming_language) "> Wikipedia</a>
+                     href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">Wikipedia page of C#</a>
             </p>
             <p class="purpleText bigp"><u>Elixir:</u> <a class="purpleText sizeSourcesLanguage"
                                                          href="https://elixir-lang.org/ ">Elixir's website</a>
@@ -152,9 +152,7 @@
                      href="https://www.java.com/fr/"> Java's page</a>
             </p>
             <p class="bigp yellowText"><u>JavaScript:</u> <a class="sizeSourcesLanguage yellowText"
-                                                             href="https://en.wikibooks.org/wiki/Ada_Programming ">Wikibooks</a>
-                / <a class="yellowText sizeSourcesLanguage"
-                     href="https://en.wikipedia.org/wiki/Ada_(programming_language) "> Wikipedia</a>
+                                                             href="https://en.wikipedia.org/wiki/JavaScript">Wikipedia page of JavaScript</a>
             </p>
             <p class="bigp blueText"><u>Lua:</u> <a class="sizeSourcesLanguage blueText"
                                                     href="https://www.lua.org/about.html">Lua's page</a>
