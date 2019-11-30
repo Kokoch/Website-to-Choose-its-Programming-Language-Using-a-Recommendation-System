@@ -53,48 +53,67 @@
 <div id="formPage">
 
     <h1><u class="padLeft titre">Form to choose a programming language</u></h1>
-        <div class="row">
-            <div class="col-sm-2 padLeft" style="margin-left:18px">
-                <dt style="font-size: x-large;">Learning Process:</dt>
-            </div>
-            <div class="col-sm-8 padLeft" style="margin-top:23px">
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input formLearning valueTarget1" id="defaultInline1"
-                           name="radioLearningProcess" value="0" checked>
-                    <label class="custom-control-label" for="defaultInline1"><p
-                            class="policeForm">Ready to learn !</p></label>
-                </div>
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input formLearning valueTarget" id="defaultInline2"
-                           name="radioLearningProcess" value="1" >
-                    <label class="custom-control-label" for="defaultInline2"><p
-                            class="policeForm">Easier it is, Better it
-                        is !</p></label>
-                </div>
-            </div>
-        </div>
     <div class="row">
-        <div class="col-sm-2 padLeft" style="margin-left:18px">
-            <dt style="font-size: x-large;">Truc?:</dt>
+        <div class="col-sm-2 padLeft" style="margin-left:13px">
+            <dt style="font-size: x-large;">Learning Process:</dt>
         </div>
-        <div class="col-sm-8" style="margin-top:23px">
-            <div class="custom-control custom-checkbox custom-control-inline">
-                <input type="checkbox" class="custom-control-input valueTarget" id="defaultInline3" value="2">
-                <label class="custom-control-label" for="defaultInline3"><p
-                        class="policeForm">Ready to learn !</p></label>
+        <div class="col-sm-8 " style="margin-top:23px">
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input formLearning " id="defaultInline1"
+                       name="radioLearningProcess" value="1" checked>
+                <label class="custom-control-label" for="defaultInline1"><p
+                        class="policeForm2">Ready to learn !</p></label>
             </div>
-
-            <div class="custom-control custom-checkbox custom-control-inline">
-                <input type="checkbox" class="custom-control-input valueTarget" id="defaultInline4" value="3" >
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input formLearning valueTarget" id="defaultInline2"
+                       name="radioLearningProcess" value="2">
+                <label class="custom-control-label" for="defaultInline2"><p
+                        class="policeForm2">Easier it is, Better it
+                    is !</p></label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2" style="padding-right: 0px" >
+            <dt style="font-size:x-large; margin-top: 15px; margin-left: 40px">Coding's experience:</dt>
+        </div>
+        <div class="col-sm-8 " style="margin-top:23px; padding-left: 70px">
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input formLearning " id="defaultInline3"
+                       name="codeExperience" value="3" checked>
+                <label class="custom-control-label" for="defaultInline3"><p
+                        class="policeForm2">Don't have any knowledge</p></label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input formLearning " id="defaultInline4"
+                       name="codeExperience" value="4">
                 <label class="custom-control-label" for="defaultInline4"><p
-                        class="policeForm">Ready to learn !</p></label>
+                        class="policeForm2">I've already coded a little</p></label>
             </div>
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-sm-2 padLeft" style="margin-left:13px">
+            <dt style="font-size: x-large;">Truc?:</dt>
+        </div>
+        <div class="col-sm-8" style="margin-top:23px">
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input " id="defaultInline5" name="trucBox" value="5">
+                <label class="custom-control-label" for="defaultInline5"><p
+                        class="policeForm">Ready to learn !</p></label>
+            </div>
+
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input " id="defaultInline6" name="trucBox" value="6">
+                <label class="custom-control-label" for="defaultInline6"><p
+                        class="policeForm">Ready to learn !</p></label>
+            </div>
+        </div>
+    </div>
     <br>
     <div class="padLeft">
-        <button type="button" class="btn btn-success" onclick="changeEaseLevel(event)">Submit</button>
+        <button type="button" class="btn btn-success" onclick="changeEaseLevel()">Submit</button>
     </div>
     <br>
     <br>
@@ -133,7 +152,8 @@
                 page of C</a>
             </p>
             <p class="bigp greenText"><u>C#:</u> <a class="greenText sizeSourcesLanguage"
-                                                    href="https://www.infoq.com/minibooks/emag-c-sharp-preview">Infoq's page</a>
+                                                    href="https://www.infoq.com/minibooks/emag-c-sharp-preview">Infoq's
+                page</a>
                 / <a class="greenText sizeSourcesLanguage"
                      href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">Wikipedia page of C#</a>
             </p>
@@ -152,7 +172,8 @@
                      href="https://www.java.com/fr/"> Java's page</a>
             </p>
             <p class="bigp yellowText"><u>JavaScript:</u> <a class="sizeSourcesLanguage yellowText"
-                                                             href="https://en.wikipedia.org/wiki/JavaScript">Wikipedia page of JavaScript</a>
+                                                             href="https://en.wikipedia.org/wiki/JavaScript">Wikipedia
+                page of JavaScript</a>
             </p>
             <p class="bigp blueText"><u>Lua:</u> <a class="sizeSourcesLanguage blueText"
                                                     href="https://www.lua.org/about.html">Lua's page</a>
@@ -198,23 +219,27 @@
         <div class="col padLeft">
             <h1><u> Documentation </u></h1>
             <div>
-            <p class="sizeSourcesLanguage">All documentation/research on the different programming languages was
-                done by
-                my project mates. </p>
+                <p class="sizeSourcesLanguage">All documentation/research on the different programming languages was
+                    done by
+                    my project mates. </p>
             </div>
             <div style="margin-top: 48px">
                 <h1><u>What's help me to code</u></h1>
                 <p class="purpleText bigp"><u>Bootstrap:</u> <a class="purpleText sizeSourcesLanguage"
-                                                          href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap's website</a>
+                                                                href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap's
+                    website</a>
                 </p>
                 <p class="purpleText bigp"><u>Bootswatch:</u> <a class="purpleText sizeSourcesLanguage"
-                         href="https://bootswatch.com/default/"> Bootswatch's page</a>
+                                                                 href="https://bootswatch.com/default/"> Bootswatch's
+                    page</a>
                 </p>
-                <p class="sizeSourcesLanguage" style="margin-bottom: 30px">I use the Bootstrap's feature to manage the visual aspect of the Website.  </p>
+                <p class="sizeSourcesLanguage" style="margin-bottom: 30px">I use the Bootstrap's feature to manage the
+                    visual aspect of the Website. </p>
                 <p class="greenText bigp"><u>W3schools:</u> <a class="greenText sizeSourcesLanguage"
-                                                                 href="https://www.w3schools.com/default.asp"> W3schools' page</a>
+                                                               href="https://www.w3schools.com/default.asp"> W3schools'
+                    page</a>
                 </p>
-                <p  class="sizeSourcesLanguage" >I use W3schools to help me to code in Html, Css and JavaScript.</p>
+                <p class="sizeSourcesLanguage">I use W3schools to help me to code in Html, Css and JavaScript.</p>
             </div>
         </div>
     </div>

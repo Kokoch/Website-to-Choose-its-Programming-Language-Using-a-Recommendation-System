@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a50043d-6807-4587-933d-1557765e7af2" name="Default Changelist" comment="">
+    <list default="true" id="8a50043d-6807-4587-933d-1557765e7af2" name="Default Changelist" comment="Sources description survey">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
@@ -24,6 +24,7 @@
   </component>
   <component name="ProjectId" id="1T3x6Vi0U2kqqKDxYbP52Nv4DY9" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project.html" />
@@ -74,7 +75,17 @@
       <workItem from="1574410020073" duration="2359000" />
       <workItem from="1574415829655" duration="40000" />
       <workItem from="1574672746268" duration="3117000" />
-      <workItem from="1574757349460" duration="8192000" />
+      <workItem from="1574757349460" duration="8229000" />
+      <workItem from="1574777268813" duration="5838000" />
+      <workItem from="1574786342849" duration="5659000" />
+      <workItem from="1574850523276" duration="742000" />
+      <workItem from="1574882621095" duration="6076000" />
+      <workItem from="1574949387154" duration="833000" />
+      <workItem from="1574959095142" duration="13776000" />
+      <workItem from="1575015240921" duration="3720000" />
+      <workItem from="1575020879522" duration="2362000" />
+      <workItem from="1575042653894" duration="4916000" />
+      <workItem from="1575113897533" duration="5679000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1572702451924</created>
@@ -209,7 +220,56 @@
       <option name="project" value="LOCAL" />
       <updated>1574684632119</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Ajout de description">
+      <created>1574767052026</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574767052026</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Sources description survey">
+      <created>1574784174399</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1574784174399</updated>
+    </task>
+    <task id="LOCAL-00022" summary="How to choose">
+      <created>1574801471064</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1574801471064</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Form">
+      <created>1574888733020</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1574888733020</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Form first question and little js">
+      <created>1574975263320</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1574975263320</updated>
+    </task>
+    <task id="LOCAL-00025" summary="source description codage et deuxieme row de formpage">
+      <created>1575018991765</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1575018991765</updated>
+    </task>
+    <task id="LOCAL-00026" summary="form js try">
+      <created>1575049025824</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1575049025824</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +307,12 @@
     <MESSAGE value="div cacher ou afficher en fonction de la page" />
     <MESSAGE value="Ajout the 4 description Java elixir swift C et modifier quelques police dans les cartes" />
     <MESSAGE value="Ajout de description" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de description" />
+    <MESSAGE value="Sources description survey" />
+    <MESSAGE value="How to choose" />
+    <MESSAGE value="Form" />
+    <MESSAGE value="Form first question and little js" />
+    <MESSAGE value="source description codage et deuxieme row de formpage" />
+    <MESSAGE value="form js try" />
+    <option name="LAST_COMMIT_MESSAGE" value="form js try" />
   </component>
 </project>
