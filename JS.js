@@ -5,7 +5,8 @@ const languages = [
         description: "Ada was initially planned by a group drove by French PC researcher Jean Ichbiah under agreement to the United States Department of Defense.\n" +
             "Ada utilize an incredibly solid, static and safe sort framework, which enables the developer to build amazing deliberations that mirror this present reality, and enables the compiler to identify numerous rationale blames before they become mistakes.\n" +
             " The language isolates interfaces from usage, and gives fine-grained power over perceivability. Ada source content is entirely compact crosswise over compilers and crosswise over target equipment stages. Regularly, the program can be recompiled with no changes. Ada is an article situated and elevated level programming language",
-        background: "purple", link: "/languages-recommendation-system/languages/Ada.html"
+        background: "purple",
+        link: "/languages-recommendation-system/languages/Ada.html"
     },
 
     {
@@ -14,7 +15,8 @@ const languages = [
         description: "The C language is a structure oriented programming language created by Dennis Ritchie.\n" +
             " The C programming language is utilized for creating framework applications that structures a significant segment of working frameworks, for example, Windows, UNIX and Linux. Accordingly, program that is written in C and that regards certain impediments can be assembled for a wide range of stages. It is a procedural language, which implies that individuals can compose their projects as a progression of bit by bit guidelines.\n" +
             " The language itself has not very many watchwords, and most things are finished utilizing libraries, which are assortments of code for them to be reused. To finish up C is a universally useful and objet-oriented programming language.",
-        background: "blue", link: "/languages-recommendation-system/languages/C.html"
+        background: "blue",
+        link: "/languages-recommendation-system/languages/C.html"
     },
 
     {
@@ -40,7 +42,10 @@ const languages = [
     {
         name: "Go",
         ease: 10,
-        description: "description of Go",
+        description: "Go was announced in November 2009, and version 1.0 was published in March 2012.\n" +
+            "The Go programing language is an open source project to create programs more productive. \n" +
+            "Go is communicative , concise, clean, and economical. Its concurrency mechanisms build it easy to write down programs that get the most out of networked machines, whereas its novel sort system allows versatile and modular program construction. \n" +
+            "Go compiles quickly to computer code yet has the convenience of garbage collection and also the power of run-time reflection. It's a quick, statically typewritten, compiled language that sounds like a dynamically typed, interpreted language. ",
         background: "lblue",
         link: "/languages-recommendation-system/languages/Go.html"
     },
@@ -53,7 +58,8 @@ const languages = [
             "Java is programming language the syntax of which is human readable.\n" +
             "Java is called General Purpose programming language because its capabilities are not limited to any specific application domain rather it can be used in various application domain.\n" +
             "Java is a class and object oriented programming language which means Java supports inheritance feature of object-oriented Programming Language. ",
-        background: "red", link: "/languages-recommendation-system/languages/Java.html"
+        background: "red",
+        link: "/languages-recommendation-system/languages/Java.html"
     },
 
     {
@@ -81,7 +87,8 @@ const languages = [
         description: "Python was created by Guido van Rossum and it first released in 1991. Python is AN understood, object-oriented, high-level programing language with dynamic linguistics.\n" +
             " Its high-level inbuilt information structures, combined with dynamic typewriting and dynamic binding, create it terribly engaging for fast Application Development. In addition as to be used as a scripting Python supports modules and packages, which inspires program modularity and code utilise.\n" +
             " There is no compilation step, the edit-test-debug cycle is unbelievably quick. Python is the programming language use to develop artificial intelligence.",
-        background: "yellow", link: "/languages-recommendation-system/languages/Python.html"
+        background: "yellow",
+        link: "/languages-recommendation-system/languages/Python.html"
     },
 
     {
@@ -160,52 +167,89 @@ function getLanguageScore(language, input) {
     return wordsIncluded.filter(included => included === true).length
 }
 
-function changeEaseLevel() {
-   if (document.getElementById("defaultInline1").checked===true){
-       console.log(document.getElementById("defaultInline1").value)
-   }
-    if (document.getElementById("defaultInline2").checked===true){
-        console.log(document.getElementById("defaultInline2").value)
-    }
-    if (document.getElementById("defaultInline3").checked===true){
-        console.log(document.getElementById("defaultInline3").value)
-    }
-    if (document.getElementById("defaultInline4").checked===true){
-        console.log(document.getElementById("defaultInline4").value)
-    }
-    if (document.getElementById("defaultInline5").checked===true){
-        console.log(document.getElementById("defaultInline5").value)
-    }
-    if (document.getElementById("defaultInline6").checked===true){
-        console.log(document.getElementById("defaultInline6").value)
-    }
 
+function formQuestion1Value() {
+    if (document.getElementById("defaultInline1").checked === true) {
+        return document.getElementById("defaultInline1").value
+    }
+    if (document.getElementById("defaultInline2").checked === true) {
+        return document.getElementById("defaultInline2").value
+    }
 }
 
-function displayCards() {
-    document.getElementById('formPage').style.display = 'none';
-    document.getElementById('aboutPage').style.display = 'none';
-    document.getElementById('sourcesPage').style.display = 'none';
-    document.getElementById('cardsPage').style.display = 'contents';
+function formQuestion2Value() {
+    if (document.getElementById("defaultInline3").checked === true) {
+        return document.getElementById("defaultInline3").value
+    }
+    if (document.getElementById("defaultInline4").checked === true) {
+        return document.getElementById("defaultInline4").value
+    }
 }
 
-function displayForm() {
-    document.getElementById('cardsPage').style.display = 'none';
-    document.getElementById('aboutPage').style.display = 'none';
-    document.getElementById('sourcesPage').style.display = 'none';
-    document.getElementById('formPage').style.display = 'contents';
+function formQuestion4Value() {
+    if (document.getElementById("defaultInline8").checked === true) {
+        return document.getElementById("defaultInline8").value
+    }
+    if (document.getElementById("defaultInline9").checked === true) {
+        return document.getElementById("defaultInline9").value
+    }
+    if (document.getElementById("defaultInline10").checked === true) {
+        return document.getElementById("defaultInline10").value
+    }
+    if (document.getElementById("defaultInline11").checked === true) {
+        return document.getElementById("defaultInline11").value
+    }
+    if (document.getElementById("defaultInline12").checked === true) {
+        return document.getElementById("defaultInline12").value
+    }
+    if (document.getElementById("defaultInline13").checked === true) {
+        return document.getElementById("defaultInline13").value
+    }
 }
 
-function displayAbout() {
-    document.getElementById('cardsPage').style.display = 'none';
-    document.getElementById('formPage').style.display = 'none';
-    document.getElementById('sourcesPage').style.display = 'none';
-    document.getElementById('aboutPage').style.display = 'contents';
+function formCheckBoxValue(x) {
+    if (document.getElementById(x).checked === true) {
+        return document.getElementById(x).value
+    }
+    else{
+        return false;
+    }
 }
 
-function displaySources() {
-    document.getElementById('cardsPage').style.display = 'none';
-    document.getElementById('formPage').style.display = 'none';
-    document.getElementById('aboutPage').style.display = 'none';
-    document.getElementById('sourcesPage').style.display = 'contents';
-}
+    function submitForm() {
+        console.log(formQuestion1Value());
+        console.log(formQuestion2Value());
+        console.log(formCheckBoxValue("defaultInline5"));
+        console.log(formCheckBoxValue("defaultInline6"));
+        console.log(formCheckBoxValue("defaultInline7"));
+        console.log(formQuestion4Value());
+    }
+
+
+    function displayCards() {
+        document.getElementById('formPage').style.display = 'none';
+        document.getElementById('aboutPage').style.display = 'none';
+        document.getElementById('sourcesPage').style.display = 'none';
+        document.getElementById('cardsPage').style.display = 'contents';
+    }
+
+    function displayForm() {
+        document.getElementById('cardsPage').style.display = 'none';
+        document.getElementById('aboutPage').style.display = 'none';
+        document.getElementById('sourcesPage').style.display = 'none';
+        document.getElementById('formPage').style.display = 'contents';
+    }
+
+    function displayAbout() {
+        document.getElementById('cardsPage').style.display = 'none';
+        document.getElementById('formPage').style.display = 'none';
+        document.getElementById('sourcesPage').style.display = 'none';
+        document.getElementById('aboutPage').style.display = 'contents';
+    }
+
+    function displaySources() {
+        document.getElementById('cardsPage').style.display = 'none';
+        document.getElementById('formPage').style.display = 'none';
+        document.getElementById('aboutPage').style.display = 'none';
+        document.getElementById('sourcesPage').style.display = 'contents';
+    }
