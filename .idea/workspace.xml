@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a50043d-6807-4587-933d-1557765e7af2" name="Default Changelist" comment="Sources description survey">
+    <list default="true" id="8a50043d-6807-4587-933d-1557765e7af2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +26,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project.html" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -85,7 +84,12 @@
       <workItem from="1575015240921" duration="3720000" />
       <workItem from="1575020879522" duration="2362000" />
       <workItem from="1575042653894" duration="4916000" />
-      <workItem from="1575113897533" duration="5679000" />
+      <workItem from="1575113897533" duration="5900000" />
+      <workItem from="1575211923584" duration="965000" />
+      <workItem from="1575296558470" duration="1572000" />
+      <workItem from="1575362276482" duration="1973000" />
+      <workItem from="1575468628707" duration="12395000" />
+      <workItem from="1575539321211" duration="4426000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1572702451924</created>
@@ -269,7 +273,28 @@
       <option name="project" value="LOCAL" />
       <updated>1575049025824</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="JS reporting value in console of form yessss">
+      <created>1575119875154</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1575119875154</updated>
+    </task>
+    <task id="LOCAL-00028" summary="JS reporting value in console of form yessss">
+      <created>1575299372928</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1575299372928</updated>
+    </task>
+    <task id="LOCAL-00029" summary="form and about page">
+      <created>1575482910219</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1575482910219</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +338,8 @@
     <MESSAGE value="Form first question and little js" />
     <MESSAGE value="source description codage et deuxieme row de formpage" />
     <MESSAGE value="form js try" />
-    <option name="LAST_COMMIT_MESSAGE" value="form js try" />
+    <MESSAGE value="JS reporting value in console of form yessss" />
+    <MESSAGE value="form and about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="form and about page" />
   </component>
 </project>
