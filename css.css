@@ -1,5 +1,5 @@
 .titre {
-    font-family: Tahoma;
+    font-family: Tahoma, cursive;
     text-align: center;
     color: green;
 }
@@ -112,7 +112,7 @@
 }
 
 .card-title{
-    font-family: Stencil Std, fantasy;
+    font-family: Stencil Std, cursive;
 }
 
 .card-subtitle{
@@ -121,7 +121,7 @@
 }
 
 .card-text{
-    font-family: Snell Roundhand, cursive ;
+    font-family: Snell Roundhand, cursive;
 }
 
 .card-body {
