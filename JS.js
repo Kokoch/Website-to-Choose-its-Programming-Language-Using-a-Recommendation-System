@@ -16,7 +16,7 @@ const languages = [
             " The C programming language is utilized for creating framework applications that structures a significant segment of working frameworks, for example, Windows, UNIX and Linux. Accordingly, program that is written in C and that regards certain impediments can be assembled for a wide range of stages. It is a procedural language, which implies that individuals can compose their projects as a progression of bit by bit guidelines.\n" +
             " The language itself has not very many watchwords, and most things are finished utilizing libraries, which are assortments of code for them to be reused. To finish up C is a universally useful and objet-oriented programming language.",
         background: "blue",
-        link: "/languages-recommendation-system/languages/C.html"
+        link: "/languages-recommendation-system/languages/RRJC.html"
     },
 
     {
@@ -68,7 +68,7 @@ const languages = [
         description: "Javascript: Javascript is a language developed and afterward released in 1995 by Brendan Eich for Netscape Communications as an approach to improve the Netscape Navigator and compete with Microsoft.\n" +
             " It was intended to supplement and have a comparative linguistic structure as Java. Javascript is a High level, portable,object oriented programming language. It is currently(November 2019) at 7th place in TIOBE Index.",
         background: "yellow",
-        link: "/languages-recommendation-system/languages/JS.html"
+        link: "/languages-recommendation-system/languages/RRJC.html"
     },
 
     {
@@ -98,7 +98,7 @@ const languages = [
             " Every bit of information and code are often given their own properties and actions. Ruby is seen as a versatile language, since it permits its users to freely alter its elements.\n" +
             " Essential elements of Ruby are often removed or redefined, at will. Ruby has exception handling features to make it easy to handle errors. Ruby is highly portable: it is developed mostly on GNU/Linux, but works on many types of UNIX, macOS, Windows… ",
         background: "red",
-        link: "/languages-recommendation-system/languages/Ruby.html"
+        link: "/languages-recommendation-system/languages/RRJC.html"
     },
 
     {
@@ -108,7 +108,7 @@ const languages = [
             "Rust’s rich type system guarantee memory-safety and enable you to eliminate many classes of bugs at compile-time.\n" +
             "Rust is a multi-paradigm programming language. Rust has great documentation, a friendly compiler with useful error messages, and top-notch tooling, an integrated package manager and build tool, smart multi-editor support with auto-completion and type inspections, an auto-formatter, and more.",
         background: "gray",
-        link: "/languages-recommendation-system/languages/Rust.html"
+        link: "/languages-recommendation-system/languages/RRJC.html"
     },
 
     {
