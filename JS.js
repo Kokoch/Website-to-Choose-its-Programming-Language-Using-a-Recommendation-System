@@ -1,12 +1,16 @@
 const languages = [
     {
         name: "Ada",
-        ease: 5,
+        ease: 4,
         description: "Ada was initially planned by a group drove by French PC researcher Jean Ichbiah under agreement to the United States Department of Defense.\n" +
             "Ada utilize an incredibly solid, static and safe sort framework, which enables the developer to build amazing deliberations that mirror this present reality, and enables the compiler to identify numerous rationale blames before they become mistakes.\n" +
             " The language isolates interfaces from usage, and gives fine-grained power over perceivability. Ada source content is entirely compact crosswise over compilers and crosswise over target equipment stages. Regularly, the program can be recompiled with no changes. Ada is an article situated and elevated level programming language",
         background: "purple",
-        link: "/languages-recommendation-system/languages/Ada.html"
+        link: "/languages-recommendation-system/languages/Ada.html",
+        valueForm1:1,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
@@ -16,7 +20,11 @@ const languages = [
             " The C programming language is utilized for creating framework applications that structures a significant segment of working frameworks, for example, Windows, UNIX and Linux. Accordingly, program that is written in C and that regards certain impediments can be assembled for a wide range of stages. It is a procedural language, which implies that individuals can compose their projects as a progression of bit by bit guidelines.\n" +
             " The language itself has not very many watchwords, and most things are finished utilizing libraries, which are assortments of code for them to be reused. To finish up C is a universally useful and objet-oriented programming language.",
         background: "blue",
-        link: "/languages-recommendation-system/languages/RRJC.html"
+        link: "/languages-recommendation-system/languages/RRJC.html",
+        valueForm1:1,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
@@ -25,29 +33,41 @@ const languages = [
         description: " C# is a language developed around 2000 by Anders Hejlsberg for Microsoft as part of its .NET software framework. It was designed to be a simple a general purpose language which main use is for the development of software in distributed environments.\n" +
             " C# is object oriented and is portable (CLI). It is currently(November 2019) at 5th place in TIOBE Index.",
         background: "green",
-        link: "/languages-recommendation-system/languages/C1.html"
+        link: "/languages-recommendation-system/languages/C1.html",
+        valueForm1:2,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
         name: "Elixir",
-        ease: 1,
+        ease: 5,
         description: "Plataformatec, a product consultancy, made Elixir in 2012 as a Research and Development venture lead by José Valim. Elixir is a beneficial language for coding viable and solid programs.\n" +
             "Elixir runs over the Erlang Virtual Machine, which gives a versatile and shortcoming tolerant establishment. To adapt to disappointments, Elixir gives administrators which depict how to restart portions of your framework when things go astray.\n" +
             "Elixir utilize useful programming to advances a coding style that assists designers with composing code that is short, succinct.\n" +
             "Elixir ships with an extraordinary arrangement of devices to ease improvement. Mix is a form device that enables you to effortlessly make ventures, oversee undertakings, run tests…",
         background: "purple",
-        link: "/languages-recommendation-system/languages/Elixir.html"
+        link: "/languages-recommendation-system/languages/Elixir.html",
+        valueForm1:1,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
         name: "Go",
-        ease: 10,
+        ease: 6,
         description: "Go was announced in November 2009, and version 1.0 was published in March 2012.\n" +
             "The Go programing language is an open source project to create programs more productive. \n" +
             "Go is communicative , concise, clean, and economical. Its concurrency mechanisms build it easy to write down programs that get the most out of networked machines, whereas its novel sort system allows versatile and modular program construction. \n" +
             "Go compiles quickly to computer code yet has the convenience of garbage collection and also the power of run-time reflection. It's a quick, statically typewritten, compiled language that sounds like a dynamically typed, interpreted language. ",
         background: "lblue",
-        link: "/languages-recommendation-system/languages/Go.html"
+        link: "/languages-recommendation-system/languages/Go.html",
+        valueForm1:2,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
@@ -59,16 +79,24 @@ const languages = [
             "Java is called General Purpose programming language because its capabilities are not limited to any specific application domain rather it can be used in various application domain.\n" +
             "Java is a class and object oriented programming language which means Java supports inheritance feature of object-oriented Programming Language. ",
         background: "red",
-        link: "/languages-recommendation-system/languages/Java.html"
+        link: "/languages-recommendation-system/languages/Java.html",
+        valueForm1:2,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
         name: "JavaScript",
-        ease: 6,
+        ease: 5,
         description: "Javascript: Javascript is a language developed and afterward released in 1995 by Brendan Eich for Netscape Communications as an approach to improve the Netscape Navigator and compete with Microsoft.\n" +
             " It was intended to supplement and have a comparative linguistic structure as Java. Javascript is a High level, portable,object oriented programming language. It is currently(November 2019) at 7th place in TIOBE Index.",
         background: "yellow",
-        link: "/languages-recommendation-system/languages/RRJC.html"
+        link: "/languages-recommendation-system/languages/RRJC.html",
+        valueForm1:2,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
@@ -78,46 +106,66 @@ const languages = [
             "Lua is presently the leading scripting language in games.(ex: World of Warcraft and Angry Birds). To say to be \"as quick as Lua\" is an aspiration of alternative scripting languages. Lua is builds out-of-the-box in all platforms that have a standard C compiler.\n" +
             " Lua runs on all flavors of Unix and Windows, on mobile devices, so Lua is very portable. It is easy to extend Lua with libraries written in other languages. Lua combines also a very simple procedural syntax.",
         background: "blue",
-        link: "/languages-recommendation-system/languages/Lua.html"
+        link: "/languages-recommendation-system/languages/Lua.html",
+        valueForm1:2,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
         name: "Python",
-        ease: 7,
+        ease: 8,
         description: "Python was created by Guido van Rossum and it first released in 1991. Python is AN understood, object-oriented, high-level programing language with dynamic linguistics.\n" +
             " Its high-level inbuilt information structures, combined with dynamic typewriting and dynamic binding, create it terribly engaging for fast Application Development. In addition as to be used as a scripting Python supports modules and packages, which inspires program modularity and code utilise.\n" +
             " There is no compilation step, the edit-test-debug cycle is unbelievably quick. Python is the programming language use to develop artificial intelligence.",
         background: "yellow",
-        link: "/languages-recommendation-system/languages/Python.html"
+        link: "/languages-recommendation-system/languages/Python.html",
+        valueForm1:2,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
         name: "Ruby",
-        ease: 1,
+        ease: 7,
         description: "Ruby was conceived and developed by Yukihiro Matsumoto of Japan in 1993-1995.\n" +
             " Every bit of information and code are often given their own properties and actions. Ruby is seen as a versatile language, since it permits its users to freely alter its elements.\n" +
             " Essential elements of Ruby are often removed or redefined, at will. Ruby has exception handling features to make it easy to handle errors. Ruby is highly portable: it is developed mostly on GNU/Linux, but works on many types of UNIX, macOS, Windows… ",
         background: "red",
-        link: "/languages-recommendation-system/languages/RRJC.html"
+        link: "/languages-recommendation-system/languages/RRJC.html",
+        valueForm1:2,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
         name: "Rust",
-        ease: 3,
+        ease: 2,
         description: "Rust has been the \"most dear programming language\" within the Stack Overflow Developer Survey each year since 2016. Rust is blazingly quick and memory-efficient: with no runtime , it will power performance-critical services, run on embedded devices, and simply integrate with alternative languages.\n" +
             "Rust’s rich type system guarantee memory-safety and enable you to eliminate many classes of bugs at compile-time.\n" +
             "Rust is a multi-paradigm programming language. Rust has great documentation, a friendly compiler with useful error messages, and top-notch tooling, an integrated package manager and build tool, smart multi-editor support with auto-completion and type inspections, an auto-formatter, and more.",
         background: "gray",
-        link: "/languages-recommendation-system/languages/RRJC.html"
+        link: "/languages-recommendation-system/languages/RRJC.html",
+        valueForm1:1,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 
     {
         name: "Swift",
-        ease: 9,
+        ease: 7,
         description: "Swift was released possible at Apple's 2014 World Developer Conference.\n" +
             "Swift is a general-purpose, multi-paradigm, powerful and intuitive programming language for macOS, iOS, watchOS, tvOS and beyond. Writing Swift code is interactive and fun, the syntax is interactive and communicative , and Swift includes trendy features developers love.",
         background: "orange",
-        link: "/languages-recommendation-system/languages/Swift.html"
+        link: "/languages-recommendation-system/languages/Swift.html",
+        valueForm1:2,
+        valueForm2:0,
+        valueForm3:1,
+        valueForm4:1,
     },
 ];
 
