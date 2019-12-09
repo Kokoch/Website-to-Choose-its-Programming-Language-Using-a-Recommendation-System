@@ -24,7 +24,7 @@ const languages = [
         valueForm1:1,
         valueForm2:0,
         valueForm3:1,
-        valueForm4:1,
+        valueForm4:8,
     },
 
     {
@@ -34,10 +34,11 @@ const languages = [
             " C# is object oriented and is portable (CLI). It is currently(November 2019) at 5th place in TIOBE Index.",
         background: "green",
         link: "/languages-recommendation-system/languages/C1.html",
-        valueForm1:2,
+        valueForm1:1,
         valueForm2:0,
         valueForm3:1,
-        valueForm4:1,
+        valueForm4:10,
+        valueForm4_2:12,
     },
 
     {
@@ -80,10 +81,10 @@ const languages = [
             "Java is a class and object oriented programming language which means Java supports inheritance feature of object-oriented Programming Language. ",
         background: "red",
         link: "/languages-recommendation-system/languages/Java.html",
-        valueForm1:2,
+        valueForm1:1,
         valueForm2:0,
         valueForm3:1,
-        valueForm4:1,
+        valueForm4:10,
     },
 
     {
@@ -96,7 +97,7 @@ const languages = [
         valueForm1:2,
         valueForm2:0,
         valueForm3:1,
-        valueForm4:1,
+        valueForm4:11,
     },
 
     {
@@ -110,7 +111,7 @@ const languages = [
         valueForm1:2,
         valueForm2:0,
         valueForm3:1,
-        valueForm4:1,
+        valueForm4:8,
     },
 
     {
@@ -124,7 +125,7 @@ const languages = [
         valueForm1:2,
         valueForm2:0,
         valueForm3:1,
-        valueForm4:1,
+        valueForm4:8,
     },
 
     {
@@ -138,7 +139,7 @@ const languages = [
         valueForm1:2,
         valueForm2:0,
         valueForm3:1,
-        valueForm4:1,
+        valueForm4:8,
     },
 
     {
@@ -165,7 +166,7 @@ const languages = [
         valueForm1:2,
         valueForm2:0,
         valueForm3:1,
-        valueForm4:1,
+        valueForm4:9,
     },
 ];
 
@@ -187,6 +188,26 @@ function renderCard(language) {
 
 function clearCards() {
     const div = document.getElementById("search-result");
+    div.innerHTML = "";
+}
+
+function renderCardForm(language) {
+    const cardForm = `
+     <div class="card ${language.background}">
+          <div class="card-body">
+            <h5 class="card-title">${language.name}</h5>
+            <h5 class="card-subtitle mb-2 text-muted"><u>ease of learning: ${language.ease}/10</u></h5>
+            <p class="card-text">${language.description}</p>
+            <a href="${language.link}" class="card-link ">Card link</a>
+          </div>
+        </div>
+    `;
+    const div = document.getElementById("search-result-form");
+    div.innerHTML += cardForm;
+}
+
+function clearCardsForm() {
+    const div = document.getElementById("search-result-form");
     div.innerHTML = "";
 }
 
@@ -264,13 +285,65 @@ function formCheckBoxValue(x) {
     }
 }
 
+function funTest(language){
+    if (language.valueForm4==8){
+        return language.valueForm4
+    }
+}
+
+function appleTest(language){
+    if (language.valueForm4==9){
+        return language.valueForm4
+    }
+}
+
+function websiteTest(language){
+    if (language.valueForm4==11){
+        return language.valueForm4
+    }
+}
+
+function androidTest(language){
+    if (language.valueForm4==10){
+        return language.valueForm4
+    }
+}
+
+function windowTest(language){
+    if (language.valueForm4_2==12){
+        return language.valueForm4_2
+    }
+}
+
     function submitForm() {
+        clearCardsForm();
         console.log(formQuestion1Value());
         console.log(formQuestion2Value());
         console.log(formCheckBoxValue("defaultInline5"));
         console.log(formCheckBoxValue("defaultInline6"));
         console.log(formCheckBoxValue("defaultInline7"));
-        console.log(formQuestion4Value());
+        if (formQuestion4Value()==8){
+            const result = languages.filter(language => funTest(language));
+            result.reverse();
+            result.forEach(renderCardForm)
+        }
+        if (formQuestion4Value()==9){
+            const result = languages.filter(language => appleTest(language));
+            result.forEach(renderCardForm)
+        }
+        if (formQuestion4Value()==11){
+            const result = languages.filter(language => websiteTest(language));
+            result.forEach(renderCardForm)
+        }
+        if (formQuestion4Value()==10){
+            const result = languages.filter(language => androidTest(language));
+            result.reverse();
+            result.forEach(renderCardForm)
+        }
+        if (formQuestion4Value()==12){
+            const result = languages.filter(language => windowTest(language));
+            result.forEach(renderCardForm)
+        }
     }
 
 
