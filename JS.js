@@ -7,10 +7,10 @@ const languages = [
             " The language isolates interfaces from usage, and gives fine-grained power over perceivability. Ada source content is entirely compact crosswise over compilers and crosswise over target equipment stages. Regularly, the program can be recompiled with no changes. Ada is an article situated and elevated level programming language",
         background: "purple",
         link: "/languages-recommendation-system/languages/Ada.html",
-        valueForm1:1,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:1,
+        valueForm1: 1,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 1,
     },
 
     {
@@ -21,10 +21,10 @@ const languages = [
             " The language itself has not very many watchwords, and most things are finished utilizing libraries, which are assortments of code for them to be reused. To finish up C is a universally useful and objet-oriented programming language.",
         background: "blue",
         link: "/languages-recommendation-system/languages/RRJC.html",
-        valueForm1:1,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:8,
+        valueForm1: 1,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 1,
     },
 
     {
@@ -34,11 +34,11 @@ const languages = [
             " C# is object oriented and is portable (CLI). It is currently(November 2019) at 5th place in TIOBE Index.",
         background: "green",
         link: "/languages-recommendation-system/languages/C1.html",
-        valueForm1:1,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:10,
-        valueForm4_2:12,
+        valueForm1: 2,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 3,
+        valueForm4_2: 1,
     },
 
     {
@@ -50,10 +50,10 @@ const languages = [
             "Elixir ships with an extraordinary arrangement of devices to ease improvement. Mix is a form device that enables you to effortlessly make ventures, oversee undertakings, run tests…",
         background: "purple",
         link: "/languages-recommendation-system/languages/Elixir.html",
-        valueForm1:1,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:1,
+        valueForm1: 1,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 0,
     },
 
     {
@@ -65,10 +65,10 @@ const languages = [
             "Go compiles quickly to computer code yet has the convenience of garbage collection and also the power of run-time reflection. It's a quick, statically typewritten, compiled language that sounds like a dynamically typed, interpreted language. ",
         background: "lblue",
         link: "/languages-recommendation-system/languages/Go.html",
-        valueForm1:2,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:1,
+        valueForm1: 2,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 0,
     },
 
     {
@@ -81,10 +81,10 @@ const languages = [
             "Java is a class and object oriented programming language which means Java supports inheritance feature of object-oriented Programming Language. ",
         background: "red",
         link: "/languages-recommendation-system/languages/Java.html",
-        valueForm1:1,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:10,
+        valueForm1: 1,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 3,
     },
 
     {
@@ -94,24 +94,24 @@ const languages = [
             " It was intended to supplement and have a comparative linguistic structure as Java. Javascript is a High level, portable,object oriented programming language. It is currently(November 2019) at 7th place in TIOBE Index.",
         background: "yellow",
         link: "/languages-recommendation-system/languages/RRJC.html",
-        valueForm1:2,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:11,
+        valueForm1: 2,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 4,
     },
 
     {
         name: "Lua",
-        ease: 8,
+        ease: 7,
         description: "Lua can be a powerful, efficient, light-weight, embeddable scripting language. It supports procedural programming, object-oriented programming, practical programming, data-driven programming, and information description.\n" +
             "Lua is presently the leading scripting language in games.(ex: World of Warcraft and Angry Birds). To say to be \"as quick as Lua\" is an aspiration of alternative scripting languages. Lua is builds out-of-the-box in all platforms that have a standard C compiler.\n" +
             " Lua runs on all flavors of Unix and Windows, on mobile devices, so Lua is very portable. It is easy to extend Lua with libraries written in other languages. Lua combines also a very simple procedural syntax.",
         background: "blue",
         link: "/languages-recommendation-system/languages/Lua.html",
-        valueForm1:2,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:8,
+        valueForm1: 2,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 1,
     },
 
     {
@@ -122,10 +122,11 @@ const languages = [
             " There is no compilation step, the edit-test-debug cycle is unbelievably quick. Python is the programming language use to develop artificial intelligence.",
         background: "yellow",
         link: "/languages-recommendation-system/languages/Python.html",
-        valueForm1:2,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:8,
+        valueForm1: 2,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 1,
+        valueForm4_2: 2,
     },
 
     {
@@ -136,10 +137,11 @@ const languages = [
             " Essential elements of Ruby are often removed or redefined, at will. Ruby has exception handling features to make it easy to handle errors. Ruby is highly portable: it is developed mostly on GNU/Linux, but works on many types of UNIX, macOS, Windows… ",
         background: "red",
         link: "/languages-recommendation-system/languages/RRJC.html",
-        valueForm1:2,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:8,
+        valueForm1: 2,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 1,
+
     },
 
     {
@@ -150,10 +152,10 @@ const languages = [
             "Rust is a multi-paradigm programming language. Rust has great documentation, a friendly compiler with useful error messages, and top-notch tooling, an integrated package manager and build tool, smart multi-editor support with auto-completion and type inspections, an auto-formatter, and more.",
         background: "gray",
         link: "/languages-recommendation-system/languages/RRJC.html",
-        valueForm1:1,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:1,
+        valueForm1: 1,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 1,
     },
 
     {
@@ -163,10 +165,10 @@ const languages = [
             "Swift is a general-purpose, multi-paradigm, powerful and intuitive programming language for macOS, iOS, watchOS, tvOS and beyond. Writing Swift code is interactive and fun, the syntax is interactive and communicative , and Swift includes trendy features developers love.",
         background: "orange",
         link: "/languages-recommendation-system/languages/Swift.html",
-        valueForm1:2,
-        valueForm2:0,
-        valueForm3:1,
-        valueForm4:9,
+        valueForm1: 2,
+        valueForm2: 0,
+        valueForm3: 1,
+        valueForm4: 2,
     },
 ];
 
@@ -279,98 +281,134 @@ function formQuestion4Value() {
 function formCheckBoxValue(x) {
     if (document.getElementById(x).checked === true) {
         return document.getElementById(x).value
-    }
-    else{
+    } else {
         return false;
     }
 }
 
-function funTest(language){
-    if (language.valueForm4==8){
+function funTest(language) {
+
+    if (formQuestion1Value() == 2) {
+        if (language.valueForm1 == 2) {
+            if (language.valueForm4 == 1) {
+                return language.valueForm4
+            }
+        }
+    }
+    if (formQuestion1Value() == 1) {
+        if (language.valueForm1 == 1) {
+            if (language.valueForm4 == 1) {
+                return language.valueForm4
+            }
+        }
+    }
+}
+
+
+function appleTest(language) {
+    if (language.valueForm4 == 2) {
         return language.valueForm4
     }
 }
 
-function appleTest(language){
-    if (language.valueForm4==9){
+function websiteTest(language) {
+    if (language.valueForm4 == 4) {
         return language.valueForm4
     }
 }
 
-function websiteTest(language){
-    if (language.valueForm4==11){
+function androidTest(language) {
+    if (language.valueForm4 == 3) {
         return language.valueForm4
     }
 }
 
-function androidTest(language){
-    if (language.valueForm4==10){
-        return language.valueForm4
-    }
-}
-
-function windowTest(language){
-    if (language.valueForm4_2==12){
+function windowTest(language) {
+    if (language.valueForm4_2 == 1) {
         return language.valueForm4_2
     }
 }
 
-    function submitForm() {
-        clearCardsForm();
-        console.log(formQuestion1Value());
-        console.log(formQuestion2Value());
-        console.log(formCheckBoxValue("defaultInline5"));
-        console.log(formCheckBoxValue("defaultInline6"));
-        console.log(formCheckBoxValue("defaultInline7"));
-        if (formQuestion4Value()==8){
-            const result = languages.filter(language => funTest(language));
+function iaTest(language) {
+    if (language.valueForm4_2 == 2) {
+        return language.valueForm4_2
+    }
+}
+
+function easeScore(language) {
+    return language.ease
+}
+
+function portableScore(language) {
+    return language.valueForm2
+}
+
+function syntaxScore(language) {
+    return language.valueForm2
+}
+
+function submitForm() {
+    clearCardsForm();
+    if (formQuestion4Value() == 1) {
+        const result = languages.filter(language => funTest(language));
+        result.sort((language1, language2) => easeScore(language2) - easeScore(language1));
+        if (formQuestion1Value()==2){
+
+        result.forEach(renderCardForm)}
+        else {result.forEach(renderCardForm)}
+    }
+    if (formQuestion4Value() == 2) {
+        const result = languages.filter(language => appleTest(language));
+        result.forEach(renderCardForm)
+    }
+    if (formQuestion4Value() == 4) {
+        const result = languages.filter(language => websiteTest(language));
+        result.forEach(renderCardForm)
+    }
+    if (formQuestion4Value() == 3) {
+        const result = languages.filter(language => androidTest(language));
+        if (formQuestion1Value() == 1) {
             result.reverse();
             result.forEach(renderCardForm)
-        }
-        if (formQuestion4Value()==9){
-            const result = languages.filter(language => appleTest(language));
-            result.forEach(renderCardForm)
-        }
-        if (formQuestion4Value()==11){
-            const result = languages.filter(language => websiteTest(language));
-            result.forEach(renderCardForm)
-        }
-        if (formQuestion4Value()==10){
-            const result = languages.filter(language => androidTest(language));
-            result.reverse();
-            result.forEach(renderCardForm)
-        }
-        if (formQuestion4Value()==12){
-            const result = languages.filter(language => windowTest(language));
+        } else {
             result.forEach(renderCardForm)
         }
     }
-
-
-    function displayCards() {
-        document.getElementById('formPage').style.display = 'none';
-        document.getElementById('aboutPage').style.display = 'none';
-        document.getElementById('sourcesPage').style.display = 'none';
-        document.getElementById('cardsPage').style.display = 'contents';
+    if (formQuestion4Value() == 5) {
+        const result = languages.filter(language => windowTest(language));
+        result.forEach(renderCardForm)
     }
-
-    function displayForm() {
-        document.getElementById('cardsPage').style.display = 'none';
-        document.getElementById('aboutPage').style.display = 'none';
-        document.getElementById('sourcesPage').style.display = 'none';
-        document.getElementById('formPage').style.display = 'contents';
+    if (formQuestion4Value() == 6) {
+        const result = languages.filter(language => iaTest(language));
+        result.forEach(renderCardForm)
     }
+}
 
-    function displayAbout() {
-        document.getElementById('cardsPage').style.display = 'none';
-        document.getElementById('formPage').style.display = 'none';
-        document.getElementById('sourcesPage').style.display = 'none';
-        document.getElementById('aboutPage').style.display = 'contents';
-    }
 
-    function displaySources() {
-        document.getElementById('cardsPage').style.display = 'none';
-        document.getElementById('formPage').style.display = 'none';
-        document.getElementById('aboutPage').style.display = 'none';
-        document.getElementById('sourcesPage').style.display = 'contents';
-    }
+function displayCards() {
+    document.getElementById('formPage').style.display = 'none';
+    document.getElementById('aboutPage').style.display = 'none';
+    document.getElementById('sourcesPage').style.display = 'none';
+    document.getElementById('cardsPage').style.display = 'contents';
+}
+
+function displayForm() {
+    document.getElementById('cardsPage').style.display = 'none';
+    document.getElementById('aboutPage').style.display = 'none';
+    document.getElementById('sourcesPage').style.display = 'none';
+    document.getElementById('formPage').style.display = 'contents';
+}
+
+function displayAbout() {
+    document.getElementById('cardsPage').style.display = 'none';
+    document.getElementById('formPage').style.display = 'none';
+    document.getElementById('sourcesPage').style.display = 'none';
+    document.getElementById('aboutPage').style.display = 'contents';
+}
+
+function displaySources() {
+    document.getElementById('cardsPage').style.display = 'none';
+    document.getElementById('formPage').style.display = 'none';
+    document.getElementById('aboutPage').style.display = 'none';
+    document.getElementById('sourcesPage').style.display = 'contents';
+}
