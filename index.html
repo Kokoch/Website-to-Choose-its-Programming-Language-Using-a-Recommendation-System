@@ -52,7 +52,10 @@
 
 <div id="formPage">
 
-    <h1><p class="titre" style="margin-top: 15px; margin-left: 400px; margin-right: 400px">Form to choose a programming language </p></h1>
+    <h1><p class="titre" style="margin-top: 15px; margin-left: 390px; margin-right: 400px">Form to choose a
+        programming</p></h1>
+    <h1><p class="titre" style="margin-top: 15px; margin-left: 400px; margin-right: 400px">language</p></h1>
+
     <div class="row">
         <div class="col-sm-4">
             <dt style="font-size:x-large; margin-top: 15px; margin-left: 205px;">Learning Process:</dt>
@@ -124,24 +127,24 @@
             <dt style="font-size: x-large; margin-left: 250px">My Objective:</dt>
         </div>
         <div class="col-sm-8" style="margin-top:23px; padding-left: 15px">
-            <div class="custom-control custom-control-inline">
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" class="custom-control-input " id="defaultInline8" name="objective" value="1"
                        checked>
                 <label class="custom-control-label" for="defaultInline8"><p
                         class="policeForm2">Code for fun</p></label>
             </div>
 
-            <div class="custom-control custom-control-inline">
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" class="custom-control-input " id="defaultInline9" name="objective" value="2">
                 <label class="custom-control-label" for="defaultInline9"><p
                         class="policeForm2">Apple application</p></label>
             </div>
-            <div class="custom-control custom-control-inline">
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" class="custom-control-input " id="defaultInline10" name="objective" value="3">
                 <label class="custom-control-label" for="defaultInline10"><p
                         class="policeForm2">Android application</p></label>
             </div>
-            <div class="custom-control custom-control-inline">
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" class="custom-control-input " id="defaultInline11" name="objective" value="4">
                 <label class="custom-control-label" for="defaultInline11"><p
                         class="policeForm2">Have a modern website</p></label>
@@ -151,27 +154,31 @@
     <div class="row">
         <div class="col-sm-4"></div>
         <div class="col-sm-6 " style="padding-left: 15px">
-            <div class="custom-control radio custom-control-inline">
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" class="custom-control-input " id="defaultInline12"
                        name="objective" value="5">
                 <label class="custom-control-label" for="defaultInline12"><p
                         class="policeForm2">Window application</p></label>
             </div>
-            <div class="custom-control radio custom-control-inline">
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" class="custom-control-input" id="defaultInline13"
                        name="objective" value="6">
                 <label class="custom-control-label" for="defaultInline13"><p
                         class="policeForm2">Code an intelligence artificial
-                    </p></label>
+                </p></label>
             </div>
         </div>
     </div>
 
 
     <br>
-
-    <div class="padLeft">
-        <button type="button" class="btn btn-success" style="margin-left:380px" onclick="submitForm()">Submit</button>
+    <div class="row">
+        <div class="col-sm-4">
+            <button type="button" class="btn btn-success" style="margin-left:410px; margin-top:14px" onclick="submitForm()">Submit
+            </button>
+        </div>
+        <div class="col-sm-8" id="alertResultChange">
+        </div>
     </div>
     <br>
     <div class="container" style="margin-left: 175px ;margin-top: 15px" id="search-result-form"></div>
@@ -186,16 +193,20 @@
 <div id="aboutPage">
     <div>
         <B><p class="titre" style="text-align: left; font-size: xx-large; margin-left: 43px"><u>BSP PROJECT S1:</u></p>
-            <p class="titre" style="text-align: left; padding-top: 0px;font-size: x-large; margin-left: 43px">Choose its Programming
+            <p class="titre" style="text-align: left; padding-top: 0px;font-size: x-large; margin-left: 43px">Choose its
+                Programming
                 Language
                 Using a Recommendation System</p></B>
 
-        <p class="policeForm1" style="text-align: left; margin-left: 43px"><B>The idea of my project is to make a website where I can
+        <p class="policeForm1" style="text-align: left; margin-left: 43px"><B>The idea of my project is to make a
+            website where I can
             post some investigations about programming languages to help people to choose the “right” one.</B></p>
 
-        <u><B><p class="policeForm2" style="text-align:left; font-size: xx-large; margin-left: 43px">Main Objectives:</p></B></u>
+        <u><B><p class="policeForm2" style="text-align:left; font-size: xx-large; margin-left: 43px">Main
+            Objectives:</p></B></u>
 
-        <p class="policeForm1" style="font-size:x-large; text-align: left; margin-left: 43px">The principal objective of my project is to
+        <p class="policeForm1" style="font-size:x-large; text-align: left; margin-left: 43px">The principal objective of
+            my project is to
             help people to choose a programming language for their activity.
             To achieve this objective, it is therefore necessary to provide complete documentation about the different
             programming languages chosen, in order to best help the user in his choice.
@@ -206,12 +217,15 @@
             This is why I decided to integrate an algorithm into my website that would allow me to advise the user on
             his choice. </p>
 
-        <p class="policeForm1" style="font-size:x-large; text-align:left; margin-left: 43px">So, I will make my website a recommendation
+        <p class="policeForm1" style="font-size:x-large; text-align:left; margin-left: 43px">So, I will make my website
+            a recommendation
             system.</p>
 
-        <u><B><p class="policeForm2" style="text-align: left; font-size: xx-large; margin-left: 43px">Scientific Section</p></B></u>
+        <u><B><p class="policeForm2" style="text-align: left; font-size: xx-large; margin-left: 43px">Scientific
+            Section</p></B></u>
 
-        <p class="policeForm1" style="font-size:x-large; text-align: left; margin-left: 43px">The scientific aspect of the project is the
+        <p class="policeForm1" style="font-size:x-large; text-align: left; margin-left: 43px">The scientific aspect of
+            the project is the
             research for “How to make a recommendation system?”. First of all, I will do some research to find websites
             that advise the user in his choice of programming language. And see if they use an algorithm or if they are
             just articles that only present some languages.
@@ -220,8 +234,10 @@
             In a second step, I will document myself on Html, Css, JavaScript and the Bootstrap library to be able to
             have my site created. </p>
 
-        <u><B><p class="policeForm2" style="text-align: left; font-size: xx-large; margin-left: 43px">Technical Section</p></B></u>
-        <p class="policeForm1" style="font-size:x-large; text-align: left; margin-left: 43px">It’s about making a functional website
+        <u><B><p class="policeForm2" style="text-align: left; font-size: xx-large; margin-left: 43px">Technical
+            Section</p></B></u>
+        <p class="policeForm1" style="font-size:x-large; text-align: left; margin-left: 43px">It’s about making a
+            functional website
             coded in HTML, CSS and JavaScript to which several internet pages will be linked together.
             The objective of the project is to have an algorithm on the website that would allow users' data to be
             entered, and then used to process the data using a recommendation system and finally return an appropriate

@@ -9,7 +9,7 @@ const languages = [
         link: "/languages-recommendation-system/languages/Ada.html",
         valueForm1: 1,
         valueForm2: 0,
-        valueForm3: 1,
+        valueForm3: 2,
         valueForm4: 1,
     },
 
@@ -23,7 +23,7 @@ const languages = [
         link: "/languages-recommendation-system/languages/RRJC.html",
         valueForm1: 1,
         valueForm2: 0,
-        valueForm3: 1,
+        valueForm3: 0,
         valueForm4: 1,
     },
 
@@ -34,7 +34,7 @@ const languages = [
             " C# is object oriented and is portable (CLI). It is currently(November 2019) at 5th place in TIOBE Index.",
         background: "green",
         link: "/languages-recommendation-system/languages/C1.html",
-        valueForm1: 2,
+        valueForm1: 0,
         valueForm2: 0,
         valueForm3: 1,
         valueForm4: 3,
@@ -50,7 +50,7 @@ const languages = [
             "Elixir ships with an extraordinary arrangement of devices to ease improvement. Mix is a form device that enables you to effortlessly make ventures, oversee undertakings, run tests…",
         background: "purple",
         link: "/languages-recommendation-system/languages/Elixir.html",
-        valueForm1: 1,
+        valueForm1: 0,
         valueForm2: 0,
         valueForm3: 1,
         valueForm4: 0,
@@ -65,7 +65,7 @@ const languages = [
             "Go compiles quickly to computer code yet has the convenience of garbage collection and also the power of run-time reflection. It's a quick, statically typewritten, compiled language that sounds like a dynamically typed, interpreted language. ",
         background: "lblue",
         link: "/languages-recommendation-system/languages/Go.html",
-        valueForm1: 2,
+        valueForm1: 0,
         valueForm2: 0,
         valueForm3: 1,
         valueForm4: 0,
@@ -81,7 +81,7 @@ const languages = [
             "Java is a class and object oriented programming language which means Java supports inheritance feature of object-oriented Programming Language. ",
         background: "red",
         link: "/languages-recommendation-system/languages/Java.html",
-        valueForm1: 1,
+        valueForm1: 0,
         valueForm2: 0,
         valueForm3: 1,
         valueForm4: 3,
@@ -94,7 +94,7 @@ const languages = [
             " It was intended to supplement and have a comparative linguistic structure as Java. Javascript is a High level, portable,object oriented programming language. It is currently(November 2019) at 7th place in TIOBE Index.",
         background: "yellow",
         link: "/languages-recommendation-system/languages/RRJC.html",
-        valueForm1: 2,
+        valueForm1: 0,
         valueForm2: 0,
         valueForm3: 1,
         valueForm4: 4,
@@ -110,7 +110,7 @@ const languages = [
         link: "/languages-recommendation-system/languages/Lua.html",
         valueForm1: 2,
         valueForm2: 0,
-        valueForm3: 1,
+        valueForm3: 0,
         valueForm4: 1,
     },
 
@@ -139,7 +139,7 @@ const languages = [
         link: "/languages-recommendation-system/languages/RRJC.html",
         valueForm1: 2,
         valueForm2: 0,
-        valueForm3: 1,
+        valueForm3: 3,
         valueForm4: 1,
 
     },
@@ -154,7 +154,7 @@ const languages = [
         link: "/languages-recommendation-system/languages/RRJC.html",
         valueForm1: 1,
         valueForm2: 0,
-        valueForm3: 1,
+        valueForm3: 3,
         valueForm4: 1,
     },
 
@@ -165,13 +165,12 @@ const languages = [
             "Swift is a general-purpose, multi-paradigm, powerful and intuitive programming language for macOS, iOS, watchOS, tvOS and beyond. Writing Swift code is interactive and fun, the syntax is interactive and communicative , and Swift includes trendy features developers love.",
         background: "orange",
         link: "/languages-recommendation-system/languages/Swift.html",
-        valueForm1: 2,
+        valueForm1: 0,
         valueForm2: 0,
         valueForm3: 1,
         valueForm4: 2,
     },
 ];
-
 
 function renderCard(language) {
     const card = `
@@ -280,23 +279,43 @@ function formQuestion4Value() {
 
 function formCheckBoxValue(x) {
     if (document.getElementById(x).checked === true) {
-        return document.getElementById(x).value
+        return Number(document.getElementById(x).value)
     } else {
-        return false;
+        return Number(0)
     }
+}
+
+function alertResultChange(){
+    const result=`
+    <div class="alert" >
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                <strong>Success!</strong> The result has been changed.
+            </div>
+    `;
+    const div = document.getElementById("alertResultChange");
+    div.innerHTML += result;
+}
+function clearAlertResultChange(){
+    const div = document.getElementById("alertResultChange");
+    div.innerHTML = '';
 }
 
 function funTest(language) {
 
     if (formQuestion1Value() == 2) {
+
         if (language.valueForm1 == 2) {
             if (language.valueForm4 == 1) {
                 return language.valueForm4
             }
         }
-    }
-    if (formQuestion1Value() == 1) {
-        if (language.valueForm1 == 1) {
+    } else if (formQuestion1Value() == 1) {
+        if (formQuestion2Value() == 1) {
+            if (language.valueForm4 == 1) {
+                return language.valueForm4
+            }
+        }
+        else if (language.valueForm1 == 1) {
             if (language.valueForm4 == 1) {
                 return language.valueForm4
             }
@@ -340,7 +359,7 @@ function easeScore(language) {
 }
 
 function portableScore(language) {
-    return language.valueForm2
+    return language.valueForm3
 }
 
 function syntaxScore(language) {
@@ -349,13 +368,17 @@ function syntaxScore(language) {
 
 function submitForm() {
     clearCardsForm();
+    clearAlertResultChange();
+    alertResultChange();
     if (formQuestion4Value() == 1) {
         const result = languages.filter(language => funTest(language));
         result.sort((language1, language2) => easeScore(language2) - easeScore(language1));
-        if (formQuestion1Value()==2){
-
-        result.forEach(renderCardForm)}
-        else {result.forEach(renderCardForm)}
+        if (formCheckBoxValue("defaultInline5") + formCheckBoxValue("defaultInline6") + formCheckBoxValue("defaultInline7") > 1) {
+            result.sort((language1, language2) => portableScore(language2) - portableScore(language1));
+            result.forEach(renderCardForm)
+        } else {
+            result.forEach(renderCardForm)
+        }
     }
     if (formQuestion4Value() == 2) {
         const result = languages.filter(language => appleTest(language));
