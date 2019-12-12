@@ -295,10 +295,6 @@ function alertResultChange(){
     const div = document.getElementById("alertResultChange");
     div.innerHTML += result;
 }
-function clearAlertResultChange(){
-    const div = document.getElementById("alertResultChange");
-    div.innerHTML = '';
-}
 
 function funTest(language) {
 
@@ -368,8 +364,8 @@ function syntaxScore(language) {
 
 function submitForm() {
     clearCardsForm();
-    clearAlertResultChange();
     alertResultChange();
+    setTimeout(function(clearAlertResultChange){document.getElementById("alertResultChange").innerHTML =""}, 2000);
     if (formQuestion4Value() == 1) {
         const result = languages.filter(language => funTest(language));
         result.sort((language1, language2) => easeScore(language2) - easeScore(language1));
