@@ -358,10 +358,6 @@ function portableScore(language) {
     return language.valueForm3
 }
 
-function syntaxScore(language) {
-    return language.valueForm2
-}
-
 function submitForm() {
     clearCardsForm();
     alertResultChange();
